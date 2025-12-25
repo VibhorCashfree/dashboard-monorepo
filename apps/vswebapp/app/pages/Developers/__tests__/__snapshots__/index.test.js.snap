@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Developers page shallow render & match the snapshot 1`] = `
+<Wrapper>
+  <TwoFactorProvider>
+    <Unknown />
+  </TwoFactorProvider>
+</Wrapper>
+`;

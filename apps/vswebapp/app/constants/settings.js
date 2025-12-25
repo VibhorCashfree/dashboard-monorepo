@@ -1,0 +1,1 @@
+export const VALID_REPORT_TYPES = ['BANK_VALIDATION', 'ACCOUNT'];

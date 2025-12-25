@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`E-Sign Page Render & match the snapshot 1`] = `
+Array [
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.c1 {
+  font-family: proxima-nova-semi-bold;
+  margin-bottom: 2rem;
+}
+
+.c1 span {
+  font-family: proxima-nova;
+}
+
+@media only screen and (min-width:1250px) {
+
+}
+
+@media only screen and (min-width:1440px) {
+
+}
+
+<div
+    className="c0"
+    style={
+      Object {
+        "marginBottom": "28px",
+      }
+    }
+  >
+    <h3
+      className="c1 m-0"
+    >
+      <span>
+        Verification Suite - 
+      </span>
+      E - Sign
+    </h3>
+    <div
+      className="c2"
+    />
+  </div>,
+  .c1 {
+  color: #FFFFFF;
+  font-size: 28px;
+  line-height: 34px;
+  -webkit-letter-spacing: px;
+  -moz-letter-spacing: px;
+  -ms-letter-spacing: px;
+  letter-spacing: px;
+  font-weight: 500;
+  font-family: proxima-nova-medium;
+}
+
+.c2 {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: px;
+  -moz-letter-spacing: px;
+  -ms-letter-spacing: px;
+  letter-spacing: px;
+  font-weight: 500;
+  font-family: proxima-nova-medium;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
+.c4 {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  min-width: 88px;
+  vertical-align: baseline;
+  text-transform: none;
+  text-shadow: none;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: proxima-nova-semi-bold;
+  font-size: 14px;
+  padding: 11px 16px;
+  line-height: 18px;
+  border-radius: 6px;
+  background-color: #6930CA;
+  color: #FFFFFF;
+}
+
+.c4 svg,
+.c4 .icon:first-of-type {
+  display: inline-block;
+  margin: 0 4px;
+  margin-left: 0;
+  width: 18px;
+}
+
+.c0 {
+  background-image: url(IMAGE_MOCK);
+  background-color: #6930CA;
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 12px;
+  min-height: 294px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 .text-section {
+  max-width: 550px;
+}
+
+.c0 .text-section .description {
+  max-width: 90%;
+}
+
+.c0 .embed-section {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  max-width: 434px;
+  width: 45%;
+}
+
+.c0 .embed-section .ui.image {
+  border-radius: 8px;
+  border: 1px #FFFFFF66 solid;
+  box-shadow: 0 0 0 6px #FFFFFF1a;
+}
+
+.c0 p {
+  max-width: 680px;
+}
+
+@media only screen and (min-width:1250px) {
+  .c0 .text-section .description {
+    max-width: none;
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  .c0 .embed-section {
+    max-width: 600px;
+  }
+}
+
+<section
+    className="c0"
+  >
+    <div
+      className="text-section"
+    >
+      <div
+        className="c1 mb-3"
+      >
+        Send document links to your customers for Aadhaar based e-signature.
+      </div>
+      <div
+        className="c2 mb-4 description"
+      >
+        A reliable and easy way to send, track, and request your customers to e-sign documents using their Aadhaar.
+      </div>
+      <div
+        className="c3"
+      >
+        <button
+          className="c4"
+          data-button-variant="primary"
+          data-event-name="Primary_Button"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          size="medium"
+          type="submit"
+        >
+          View API Docs
+        </button>
+      </div>
+    </div>
+  </section>,
+  .c0 {
+  line-height: 28px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width:1250px) {
+
+}
+
+@media only screen and (min-width:1440px) {
+
+}
+
+<div
+    className="c0"
+  >
+    How does Aadhaar E Sign Verification work?
+  </div>,
+  .c3 {
+  color: #6B6C7B;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-letter-spacing: px;
+  -moz-letter-spacing: px;
+  -ms-letter-spacing: px;
+  letter-spacing: px;
+  font-weight: 500;
+  font-family: proxima-nova-medium;
+}
+
+.c1 {
+  padding: 1.5rem;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 19.2px;
+}
+
+.c0 > * {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c2 .title {
+  position: relative;
+  padding-bottom: 18px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: proxima-nova-semi-bold;
+  margin-bottom: 22px;
+}
+
+.c2 .title:after {
+  background-color: #6930CA;
+  left: 0;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 49px;
+}
+
+@media only screen and (min-width:1250px) {
+
+}
+
+@media only screen and (min-width:1440px) {
+
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="title"
+        >
+          Request Document Signature
+        </div>
+        <div
+          className="c3"
+        >
+          Use our API to upload the document with signing details (position, page), and send it to the customer's email/phone or let them sign in your app.
+        </div>
+      </div>
+    </div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="title"
+        >
+          Receive Signature Status
+        </div>
+        <div
+          className="c3"
+        >
+          Customer receives the document link and signs it using their Aadhaar. The status of the signature is sent to you over webhooks.
+        </div>
+      </div>
+    </div>
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="title"
+        >
+          E - Sign Reports
+        </div>
+        <div
+          className="c3"
+        >
+          Reports allow you to run, download, and print the reports of documents uploaded for Aadhaar based e-sign.
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

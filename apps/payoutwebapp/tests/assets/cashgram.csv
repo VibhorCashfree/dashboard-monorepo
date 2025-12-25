@@ -1,0 +1,4 @@
+cashgramId,name,phone,email,amount,expiryDate,payoutType,description,remarks,sendWhatsapp,sendSMS,sendEmail
+TEST_CF_1816,John Doe,9999999999,test@cashfree.com,2,20/11/2021,Refund,Order 111,REMARKS,0,1,1
+TEST_CF_2816,John Doe,8888888888,test@cashfree.com,2,20/11/2021,Cashback,,REMARKS,0,0,1
+TEST_CF_3816,John Doe,7777777777,test@cashfree.com,2,14/11/2021,,Order 222,REMARKS,1,1,1

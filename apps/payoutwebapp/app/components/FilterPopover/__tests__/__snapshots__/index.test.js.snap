@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterPopover Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  background-color: #FFFFFF;
+  padding: 0.5rem 2rem;
+  font-family: dm-sans-medium;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 i.chevron.icon {
+  color: #6930CA;
+}
+
+<p
+  className="c0"
+/>
+`;
+
+exports[`FilterPopover shallow render & match the snapshot 1`] = `
+<lb
+  buttonDisplayText="Search & Filter"
+  onApply={[Function]}
+  value={Object {}}
+>
+  [Function]
+</lb>
+`;

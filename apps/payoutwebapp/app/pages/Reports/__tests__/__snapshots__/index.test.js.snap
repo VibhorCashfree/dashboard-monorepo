@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Reports page shallow render & match the snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <j2
+    messages={
+      Object {
+        "en": Object {
+          "account_holder_name_can_include_alphabets_numbers_and_characters_and_space_only": "Account Holder Name can include alphabets, numbers and characters (., -, &, /, and space) only.",
+          "account_number_can_include_a_maximum_of_25_characters": "Account number can include a maximum of 25 characters.",
+          "account_number_should_include_a_minimum_9_characters": "Account number should include a minimum 9 characters.",
+          "amount_entered_is_less_than_1_rupee": "Amount entered is less than 1 rupee.",
+          "amount_should_be_equal_to_or_lesser_than_formatted_amt_write_to_care_cashfree_com_to_increase_the_limit": "Amount should be equal to or lesser than {{formattedAmt}}. Write to care@cashfree.com to increase the limit.",
+          "bank_account_number_can_include_numbers_and_alphabets_only": "Bank account number can include numbers and alphabets only.",
+          "beneficiary_id_can_include_a_maximum_of_50_characters": "Beneficiary ID can include a maximum of 50 characters.",
+          "card_number_should_include_a_minimum_12_digits": "Card number should include a minimum 12 digits.",
+          "cashgram_id_can_include_a_maximum_of_36_characters": "Cashgram ID can include a maximum of 36 characters.",
+          "cashgram_id_can_include_alphabets_numbers_hyphens_and_underscores_only": "Cashgram ID can include alphabets, numbers, hyphens and underscores only.",
+          "cvv_should_include_3_digits": "CVV should include 3 digits.",
+          "enter_a_public_ip_address_ip": "Enter a Public IP address - {{ip}}",
+          "enter_a_valid_ip_address_ip": "Enter a valid IP address - {{ip}}",
+          "enter_valid_amount": "Enter valid amount.",
+          "enter_valid_email_id": "Enter valid email ID.",
+          "enter_valid_proportion": "Enter valid proportion.",
+          "expiry_month_should_include_2_digits": "Expiry month should include 2 digits.",
+          "expiry_year_should_include_2_digits": "Expiry year should include 2 digits.",
+          "fund_source_name_can_include_a_maximum_of_40_characters": "Reference Name can include a maximum of 40 characters.",
+          "fund_source_name_can_include_alphabets_numbers_spaces_hyphens_and_underscores_only": "Reference Name can include alphabets, numbers, spaces, hyphens, and underscores only.",
+          "ifsc_should_include_11_characters": "IFSC should include 11 characters.",
+          "insufficient_escrow_account_balance": "Insufficient escrow account balance",
+          "invalid_card_number": "Invalid Card Number",
+          "invalid_expiry": "Invalid Expiry.",
+          "invalid_gstin_number": "Invalid GSTIN Number",
+          "invalid_pan_number": "Invalid PAN Number",
+          "invalid_type": "Invalid {{type}}.",
+          "invalid_upi_vpa": "Invalid UPI VPA.",
+          "ip_address_count_can_be_a_maximum_of_max_ip_count": "IP address count can be a maximum of {{MAX_IP_COUNT}}",
+          "name_can_include_a_maximum_of_100_characters": "Name can include a maximum of 100 characters.",
+          "only_numbers_are_allowed": "Only numbers are allowed.",
+          "only_two_decimals_are_allowed": "Only two decimals are allowed.",
+          "pan_name_cannot_include_special_characters": "PAN name cannot include special characters.",
+          "payout_type_can_include_a_maximum_of_20_characters": "Payout Type can include a maximum of 20 characters.",
+          "payout_type_can_include_alphabets_and_whitespaces_only": "Payout Type can include alphabets and whitespaces only.",
+          "phone_number_should_include_specified_digits_in_CFRN101": "Phone number should include 10 digits.",
+          "phone_number_should_include_specified_digits_in_CFRN102": "Phone number should be between 7 and 10 digits.",
+          "please_provide_a_valid_beneficiary_id": "Please provide a valid Beneficiary Id",
+          "proportion_should_be_greater_than_0": "Proportion should be greater than 0",
+          "proportion_should_be_less_than_100": "Proportion should be less than 100",
+          "reference_id_can_include_a_maximum_of_40_characters": "Reference ID can include a maximum of 40 characters.",
+          "reference_id_can_include_alphabets_numbers_hyphens_and_underscores_only": "Reference ID can include alphabets, numbers, hyphens and underscores only.",
+          "special_characters_are_not_allowed_in_ifsc": "Special characters are not allowed in IFSC.",
+          "the_5th_character_of_ifsc_should_always_be_0": "The 5th character of IFSC should always be 0.",
+          "this_field_cannot_be_blank": "This field cannot be blank.",
+          "transfer_id_can_include_a_maximum_of_40_characters": "Transfer ID can include a maximum of 40 characters.",
+          "transfer_id_can_include_alphabets_numbers_hyphens_and_underscores_only": "Transfer ID can include alphabets, numbers, hyphens and underscores only.",
+          "type_can_include_a_maximum_of_max_length_characters": "{{type}} can include a maximum of {{maxLength}} characters.",
+          "type_can_include_alphabets_and_whitespaces_only": "{{type}} can include alphabets and whitespaces only.",
+          "type_cannot_include_special_characters": "{{type}} cannot include special characters.",
+          "upi_vpa_can_include_a_maximum_of_100_characters": "UPI VPA can include a maximum of 100 characters.",
+          "upi_vpa_should_include_a_minimum_of_3_characters": "UPI VPA should include a minimum of 3 characters.",
+        },
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <WO>
+        <Context.Provider
+          value={
+            Object {
+              "accountList": Array [
+                Object {
+                  "accountId": 7447,
+                  "accountName": "Raj Nandan Sharma",
+                  "accountType": "PAYOUT_CURRENT",
+                  "availableBalance": "16.29",
+                  "rechargeAccount": "70707010J15S",
+                },
+              ],
+              "featureFlags": Object {},
+              "merchantDetails": Object {
+                "authType": "OTP",
+                "cfProductStatus": Object {
+                  "CAC": "APPROVED",
+                  "CES": "APPROVED",
+                  "CSP": "APPROVED",
+                  "EPOS": "APPROVED",
+                  "PG": "APPROVED",
+                },
+                "userType": "MERCHANT_OWNER",
+              },
+              "merchantSettings": Object {
+                "enableConnectedWallet": false,
+                "enableMerchantAPIKeyAddition": false,
+              },
+              "restrictionCodes": Array [],
+            }
+          }
+        >
+          <Context.Provider
+            value={
+              Object {
+                "accountConfig": Object {
+                  "MerchantEmail": "example@example.com",
+                  "MerchantName": "XXXX",
+                },
+                "accountInfo": Object {
+                  "accountHolder": "sdfsdf",
+                  "address": "Koramangala",
+                  "bankAccount": "111111111111",
+                  "bankname": "ICICI",
+                  "city": "Ranchi",
+                  "email": "kisley.shirish+cfmain@cashfree.com",
+                  "ifsc": "ICIC0003439",
+                  "isActive": "1",
+                  "name": "Raj Nandan Sharma",
+                  "phone": "1234567890",
+                  "state": "Bengaluru",
+                },
+                "permissionCodes": Array [],
+                "preferences": Object {
+                  "bav": Object {
+                    "activated": Object {
+                      "Rate": "1.1",
+                      "ServiceName": "BANKDETAILS_VALIDATION",
+                      "VariableAmount": 0,
+                    },
+                    "batch": "1",
+                    "upload": true,
+                  },
+                  "beneficiaries": Object {
+                    "purpose": Object {
+                      "corpCC": true,
+                      "others": true,
+                    },
+                  },
+                  "cashgrams": Object {
+                    "activated": true,
+                    "batch": "1",
+                    "individual": "1",
+                    "upload": true,
+                    "verify": true,
+                  },
+                  "isConnected": false,
+                  "merchantPreferences": Object {
+                    "AMAZON_UPI_BENE_NOTIFY_MEDIUM": 30,
+                    "BULK_UPLOADS_BENE": false,
+                    "CASHGRAM_MERCHANT_NAME": "Dream11",
+                    "CASHGRAM_REDIRECT_URL": "https://whydowehope.gov.in",
+                    "CASHGRAM_SUPPORT_MAIL": "example@cashfree.com",
+                    "CASHGRAM_TRANSFER_ENABLED": true,
+                    "CASHGRAM_VALIDATION_BV_RATE": 30,
+                    "CASHGRAM_VALIDATION_CREATION_RATE": 30,
+                    "DISABLE_NEFT_RETRY": true,
+                    "DISABLE_RETRY_TRANSFER_PAYOUT": true,
+                    "INCIDENT_WEBHOOK_ENABLED": true,
+                    "MAX_LOW_BALANCE_QUEUEING_TIME": 100,
+                    "PHONE_MODE_NAME_MATCH_THRESHOLD": 50,
+                    "TRANSFERS_MAX_RETRY_TIME": 20,
+                  },
+                  "modeByName": Object {
+                    "AMZN_UPI": Object {
+                      "ID": 184060,
+                      "IsQueued": 0,
+                      "Mode": "AMZN_UPI",
+                      "ModeID": 13,
+                      "Status": "",
+                    },
+                    "amazonpay": Object {
+                      "ID": 150842,
+                      "IsQueued": 0,
+                      "Mode": "amazonpay",
+                      "ModeID": 5,
+                      "Status": "",
+                    },
+                    "card": Object {
+                      "ID": 184181,
+                      "IsQueued": 0,
+                      "Mode": "card",
+                      "ModeID": 4,
+                      "Status": "",
+                    },
+                    "creditcard": Object {
+                      "ID": 184182,
+                      "IsQueued": 0,
+                      "Mode": "creditcard",
+                      "ModeID": 6,
+                      "Status": "",
+                    },
+                    "imps": Object {
+                      "ID": 149262,
+                      "IsQueued": 0,
+                      "Mode": "imps",
+                      "ModeID": 9,
+                      "Status": "",
+                    },
+                    "neft": Object {
+                      "ID": 149263,
+                      "IsQueued": 0,
+                      "Mode": "neft",
+                      "ModeID": 10,
+                      "Status": "",
+                    },
+                    "phone": Object {
+                      "ID": 151498,
+                      "IsQueued": 0,
+                      "Mode": "phone",
+                      "ModeID": 12,
+                      "Status": "",
+                    },
+                    "upi": Object {
+                      "ID": 149264,
+                      "IsQueued": 0,
+                      "Mode": "upi",
+                      "ModeID": 3,
+                      "Status": "",
+                    },
+                  },
+                  "pan": Object {
+                    "activated": Object {
+                      "Rate": "1.5",
+                      "ServiceName": "PANDETAILS_VERIFICATION",
+                      "VariableAmount": 1,
+                    },
+                    "upload": true,
+                  },
+                  "quickTransfer": true,
+                  "selfWithdrawal": true,
+                  "transfers": Object {
+                    "batch": "1",
+                    "individual": "0",
+                    "upload": true,
+                  },
+                  "webhookVersion": "4-9-2020",
+                },
+                "slabCharges": Array [],
+                "yesBusinessType": "Partnership",
+              }
+            }
+          >
+            <Context.Provider
+              value={
+                Object {
+                  "isAlias": false,
+                  "loading": false,
+                  "permissionCodes": Array [],
+                  "updateUserDetails": [MockFunction],
+                }
+              }
+            >
+              <Unknown />
+            </Context.Provider>
+          </Context.Provider>
+        </Context.Provider>
+      </WO>
+    </Provider>
+  </j2>
+</MemoryRouter>
+`;

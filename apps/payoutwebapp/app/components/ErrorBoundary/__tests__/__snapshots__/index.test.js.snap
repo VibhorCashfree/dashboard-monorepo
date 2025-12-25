@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary shallow render & match the snapshot 1`] = `
+<t
+  customErrorConfig={
+    Object {
+      "accountId": null,
+      "merchantId": null,
+      "product": "payoutwebapp",
+      "team": "payoutwebapp",
+    }
+  }
+  fallback={
+    <Alert
+      bordered={true}
+      className="mb-2"
+      rounded={true}
+      type="danger"
+    >
+      <styled.div
+        size="md"
+      >
+        Something went wrong. Try again after some time.
+      </styled.div>
+    </Alert>
+  }
+  onError={[Function]}
+>
+  <h3>
+    2 + 2 = 5
+  </h3>
+</t>
+`;

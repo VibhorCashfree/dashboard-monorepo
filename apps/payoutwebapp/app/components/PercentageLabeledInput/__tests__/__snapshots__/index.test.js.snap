@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PercentageLabeledInput shallow render & match the snapshot 1`] = `
+<hv
+  fluid={true}
+  label="Percentage"
+  name="percentage"
+  onChange={[MockFunction]}
+  placeholder="Percentage"
+  type="text"
+  value="70"
+  width={12}
+/>
+`;

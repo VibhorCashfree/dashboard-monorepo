@@ -1,0 +1,5 @@
+transferId,vpa,name,email,phone,amount,remarks
+tranferId1,aditya@upi,Aditya,aditya@example.com,9999999999,100,remarks1
+transferId2,bob@axisbank,Bob,bob@example.com,8888888888,200,remarks2
+transferId3,jerry@okhdfcbank,Jerry,jerry@example.com,7777777777,300,remarks3
+transferId4,9876543210@upi,Jerry,jerry@example.com,9876543210,300,remarks3

@@ -1,0 +1,6 @@
+enum LIST_ACTION_TYPE {
+  RESET = 'RESET',
+  QUERY_FILTERS = 'QUERY_FILTERS',
+}
+
+export default LIST_ACTION_TYPE;

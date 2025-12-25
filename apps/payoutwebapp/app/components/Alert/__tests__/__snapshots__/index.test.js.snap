@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: right;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Alert Styled: shallow render & match the snapshot 2`] = `
+.c0 {
+  background: undefined1a;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #2b2d42;
+  font-family: dm-sans-semi-bold;
+  border-radius: 0px;
+  padding: 12px 16px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Alert Styled: shallow render & match the snapshot 3`] = `
+.c0 {
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Alert shallow render & match the snapshot 1`] = `
+<styled.div
+  bordered={true}
+  className="mb-3"
+  compact={true}
+  rounded={true}
+  size="md"
+  type="success"
+>
+  <cc
+    as="img"
+    inline={true}
+    src="IMAGE_MOCK"
+    style={
+      Object {
+        "flex": 1,
+        "maxWidth": "fit-content",
+      }
+    }
+    ui={true}
+  />
+  <styled.div
+    size="md"
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </styled.div>
+  <styled.div>
+    <Button
+      primary={true}
+      size="small"
+    >
+      Porro a quos
+    </Button>
+  </styled.div>
+</styled.div>
+`;

@@ -1,0 +1,1078 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Forms Container checks Forms Snapshot render 1`] = `
+Array [
+  .c0 {
+  color: #6B6C7B;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-letter-spacing: px;
+  -moz-letter-spacing: px;
+  -ms-letter-spacing: px;
+  letter-spacing: px;
+  font-weight: 500;
+  font-family: proxima-nova-medium;
+}
+
+<div
+    className="c0 my-2"
+  >
+    Bulk Files and their statuses are shown here.
+     
+    <a
+      data-event-name="Link"
+      href="https://docs.cashfree.com/docs/verification-suite-introduction"
+      target="_blank"
+    >
+      Know more
+    </a>
+  </div>,
+  .c8 {
+  color: #6930CA;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-letter-spacing: px;
+  -moz-letter-spacing: px;
+  -ms-letter-spacing: px;
+  letter-spacing: px;
+  font-weight: 600;
+  font-family: proxima-nova-semi-bold;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5.ui.dropdown.selection,
+.c5.ui.dropdown.search,
+.c5.ui.dropdown.button {
+  padding: 11px 16px;
+}
+
+.c5.ui.dropdown.selection > i.icon,
+.c5.ui.dropdown.search > i.icon,
+.c5.ui.dropdown.button > i.icon {
+  top: 11px;
+}
+
+.c5.ui.dropdown.selection.active,
+.c5.ui.dropdown.search.active,
+.c5.ui.dropdown.button.active {
+  border: 1px solid #6930CA;
+}
+
+.c5.ui.dropdown.selection.active > i.icon,
+.c5.ui.dropdown.search.active > i.icon,
+.c5.ui.dropdown.button.active > i.icon {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c5.ui.dropdown.selection:focus,
+.c5.ui.dropdown.search:focus,
+.c5.ui.dropdown.button:focus {
+  border-color: #6930CA;
+}
+
+.c5.ui.dropdown.selection {
+  padding: 11px 16px;
+  border-radius: 6px;
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+  border: 1px solid #A6A7B0;
+}
+
+.c5.ui.dropdown.search,
+.c5.ui.dropdown.button {
+  min-width: 180px;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+
+.c5.ui.dropdown.search > .menu.transition,
+.c5.ui.dropdown.button > .menu.transition {
+  min-width: 180px;
+  max-width: 180px;
+}
+
+.c5.ui.dropdown.search {
+  line-height: 15px;
+  padding: 10px 16px;
+}
+
+.c5.ui.dropdown.search input.search {
+  background: white;
+}
+
+.c5.ui.dropdown.search .text {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c5.ui.dropdown.search > i.icon {
+  right: 0.5rem;
+  margin-top: 5px;
+}
+
+.c5.ui.dropdown.search > i.icon:before {
+  display: none;
+}
+
+.c5.ui.dropdown.button {
+  border: 1px solid #FFFFFF;
+}
+
+.c5.ui.dropdown.c4.ui.dropdown.c4.ui.dropdown.button > .text {
+  color: #2b2d42;
+}
+
+.c5.ui.dropdown.c4.ui.dropdown.c4.ui.dropdown.button > i.icon {
+  opacity: 1;
+  margin-top: 2px;
+}
+
+.c5.ui.dropdown > i.icon {
+  float: right;
+  color: #6930CA;
+}
+
+.c5.ui.dropdown > .visible.menu.transition {
+  position: absolute;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(43,45,66,0.12);
+  border: none;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item {
+  border: none;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item .text,
+.c5.ui.dropdown > .visible.menu.transition .item .description {
+  font-size: 0.875rem;
+  font-family: proxima-nova-medium;
+  line-height: 18px;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item .text {
+  color: #2b2d42;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item .description {
+  color: #6B6C7B;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item.selected {
+  background: #EFE5FF;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item:hover {
+  background: #F2F2F2;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item:first-child {
+  margin-top: 8px;
+}
+
+.c5.ui.dropdown > .visible.menu.transition .item:last-child {
+  margin-bottom: 8px;
+}
+
+.c5.ui.dropdown > .visible.menu.transition::-webkit-scrollbar {
+  display: none;
+}
+
+.c5.ui.dropdown.fluid .visible.menu.transition {
+  min-width: 100%;
+}
+
+.c2 {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  min-width: 88px;
+  vertical-align: baseline;
+  text-transform: none;
+  text-shadow: none;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: proxima-nova-semi-bold;
+  font-size: 14px;
+  padding: 11px 16px;
+  line-height: 18px;
+  border-radius: 6px;
+  font-family: proxima-nova-medium;
+  background-color: #FFFFFF;
+  color: #2b2d42;
+}
+
+.c2 svg,
+.c2 .icon:first-of-type {
+  display: inline-block;
+  margin: 0 4px;
+  margin-right: 0;
+  width: 18px;
+}
+
+.c6 {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  min-width: 88px;
+  vertical-align: baseline;
+  text-transform: none;
+  text-shadow: none;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: proxima-nova-semi-bold;
+  font-size: 14px;
+  padding: 11px 16px;
+  line-height: 18px;
+  border-radius: 6px;
+  background: none;
+  color: #6930CA !important;
+  padding: 0;
+  min-width: auto;
+  font-family: proxima-nova-medium !important;
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+}
+
+.c6 svg,
+.c6 .icon:first-of-type {
+  display: inline-block;
+  margin: 0 4px;
+  margin-left: 0;
+  width: 18px;
+}
+
+.c9 {
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  min-width: 88px;
+  vertical-align: baseline;
+  text-transform: none;
+  text-shadow: none;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: proxima-nova-semi-bold;
+  font-size: 14px;
+  padding: 11px 16px;
+  line-height: 18px;
+  border-radius: 6px;
+  background-color: #6930CA;
+  color: #FFFFFF;
+}
+
+.c9 svg,
+.c9 .icon:first-of-type {
+  display: inline-block;
+  margin: 0 4px;
+  margin-left: 0;
+  width: 18px;
+}
+
+.c1 {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > div:first-of-type {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 > div:first-of-type button {
+  margin-right: 1rem;
+}
+
+<div
+    className="c0"
+  >
+    <div>
+      <div
+        className="c1"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <button
+          className="c2"
+          data-button-variant="primary"
+          disabled={false}
+          loading={false}
+          size="medium"
+          type="submit"
+        >
+          Last 7 days
+           
+          <svg
+            className="ml-1"
+            fill="none"
+            height="18"
+            style={
+              Object {
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.99999 6.99999C2.88358 7.1161 2.79122 7.25404 2.7282 7.4059C2.66519 7.55777 2.63275 7.72057 2.63275 7.88499C2.63275 8.04941 2.66519 8.21221 2.7282 8.36407C2.79122 8.51593 2.88358 8.65387 2.99999 8.76999L11.3 17.08C11.4869 17.2632 11.7382 17.3658 12 17.3658C12.2617 17.3658 12.5131 17.2632 12.7 17.08L21 8.76999C21.1439 8.66176 21.263 8.52392 21.3492 8.36579C21.4353 8.20765 21.4866 8.03287 21.4995 7.85324C21.5124 7.67361 21.4867 7.49331 21.424 7.32447C21.3613 7.15563 21.2632 7.00219 21.1362 6.87448C21.0092 6.74678 20.8564 6.64778 20.6879 6.58416C20.5194 6.52053 20.3392 6.49377 20.1595 6.50566C19.9798 6.51755 19.8048 6.56783 19.6462 6.6531C19.4875 6.73837 19.349 6.85666 19.24 6.99999L12 14.24L4.73999 6.99999C4.50678 6.77394 4.19476 6.64754 3.86999 6.64754C3.54521 6.64754 3.23319 6.77394 2.99999 6.99999Z"
+              fill="#6930CA"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="c1"
+        data-event-name="open-filter-dropdown"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <button
+          className="c2"
+          data-button-variant="primary"
+          disabled={false}
+          loading={false}
+          size="medium"
+          type="submit"
+        >
+          Search & Filter
+           
+          <svg
+            className="ml-1"
+            fill="none"
+            height="18"
+            style={
+              Object {
+                "verticalAlign": "middle",
+              }
+            }
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2.99999 6.99999C2.88358 7.1161 2.79122 7.25404 2.7282 7.4059C2.66519 7.55777 2.63275 7.72057 2.63275 7.88499C2.63275 8.04941 2.66519 8.21221 2.7282 8.36407C2.79122 8.51593 2.88358 8.65387 2.99999 8.76999L11.3 17.08C11.4869 17.2632 11.7382 17.3658 12 17.3658C12.2617 17.3658 12.5131 17.2632 12.7 17.08L21 8.76999C21.1439 8.66176 21.263 8.52392 21.3492 8.36579C21.4353 8.20765 21.4866 8.03287 21.4995 7.85324C21.5124 7.67361 21.4867 7.49331 21.424 7.32447C21.3613 7.15563 21.2632 7.00219 21.1362 6.87448C21.0092 6.74678 20.8564 6.64778 20.6879 6.58416C20.5194 6.52053 20.3392 6.49377 20.1595 6.50566C19.9798 6.51755 19.8048 6.56783 19.6462 6.6531C19.4875 6.73837 19.349 6.85666 19.24 6.99999L12 14.24L4.73999 6.99999C4.50678 6.77394 4.19476 6.64754 3.86999 6.64754C3.54521 6.64754 3.23319 6.77394 2.99999 6.99999Z"
+              fill="#6930CA"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="c3"
+    >
+      <div
+        aria-expanded={false}
+        className="ui dropdown c4 c5"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <a
+          className="c6"
+          data-button-variant="link"
+          disabled={false}
+          loading={false}
+          size="medium"
+          type="submit"
+        >
+          Download sample file
+        </a>
+        <div
+          className="right menu transition "
+        >
+          <div
+            className="scrolling menu transition"
+          >
+            <div
+              className="item py-2"
+              onClick={[Function]}
+              role="option"
+            >
+              <div
+                className="c7"
+              >
+                <svg
+                  fill="none"
+                  height="24"
+                  style={
+                    Object {
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  theme={
+                    Object {
+                      "COLORS": Object {
+                        "bg": "#E6E9EE",
+                        "bgLight": "#F4F6F9",
+                        "body": "#2b2d42",
+                        "bodyLight": "#6B6C7B",
+                        "buttonTextColor": "#FFFFFF",
+                        "danger": "#CB2C2C",
+                        "disabled": "#E6E5E8",
+                        "focused": "#130951",
+                        "globalHeaderText": "#fbfbfb",
+                        "headerBtnFill": "rgba(206, 177, 255, 0.2)",
+                        "hover": "#F2F2F2",
+                        "info": "#0061AB",
+                        "label": "#847f8d",
+                        "marketingPrimary": "#00B7B1",
+                        "marketingSecondary": "#f5b900",
+                        "placeholder": "#A6A7B0",
+                        "primary": "#6930CA",
+                        "selected": "#EFE5FF",
+                        "success": "#00A331",
+                        "timelineContentBg": "#E6E5E833",
+                        "underReviewFill": "#D68309",
+                        "warning": "#D68309",
+                        "warningBg": "rgba(214,131,9,0.1)",
+                        "white": "#FFFFFF",
+                      },
+                      "DEVICE": Object {
+                        "desktop": "@media (max-width: 2560px)",
+                        "desktopL": "@media (max-width: 2560px)",
+                        "laptop": "@media (max-width: 1024px)",
+                        "laptopL": "@media (max-width: 1440px)",
+                        "mobileL": "@media (max-width: 481px)",
+                        "mobileM": "@media (max-width: 375px)",
+                        "mobileS": "@media (max-width: 320px)",
+                        "tablet": "@media (max-width: 768px)",
+                      },
+                      "FONTS": Object {
+                        "bold": "proxima-nova-bold",
+                        "light": "proxima-nova-light",
+                        "medium": "proxima-nova-medium",
+                        "normal": "proxima-nova",
+                        "semi_bold": "proxima-nova-semi-bold",
+                        "super_bold": "proxima-nova-super-bold",
+                      },
+                      "GLOBAL_SIDEBAR": Object {
+                        "bg": "#6933D3",
+                        "brandBg": "#6933D3",
+                        "envSwitch": "#FFFFFF",
+                        "envSwitchAlt": "#5222b4",
+                        "envSwitchAltHover": "#865be5",
+                        "primaryBtn": "#E6E5E8",
+                        "secondaryBtn": "#E6E5E8",
+                        "selected": "#13095199",
+                        "text": "#EFE5FF",
+                      },
+                      "TEXT": Object {
+                        "b12": Object {
+                          "fontSize": 12,
+                          "lineHeight": 16,
+                          "weight": 600,
+                        },
+                        "b14": Object {
+                          "fontSize": 14,
+                          "lineHeight": 18,
+                          "weight": 500,
+                        },
+                        "h16": Object {
+                          "fontSize": 16,
+                          "lineHeight": 20,
+                          "weight": 500,
+                        },
+                        "h20": Object {
+                          "fontSize": 20,
+                          "lineHeight": 24,
+                          "weight": 600,
+                        },
+                        "h28": Object {
+                          "fontSize": 28,
+                          "lineHeight": 34,
+                          "weight": 400,
+                        },
+                        "h8": Object {
+                          "fontSize": 8,
+                          "letterSpacing": 2,
+                          "lineHeight": 10,
+                          "weight": 500,
+                        },
+                        "p14": Object {
+                          "fontSize": 14,
+                          "lineHeight": 20,
+                          "weight": 500,
+                        },
+                      },
+                    }
+                  }
+                  viewBox="0 0 21 24"
+                  width="21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.5 0C3.675 0 3 0.675 3 1.5V22.5C3 23.325 3.675 24 4.5 24H19.5C20.325 24 21 23.325 21 22.5V6L15 0H4.5Z"
+                    fill="#DCE0DA"
+                  />
+                  <path
+                    d="M16.5 6H21L15 0V4.5C15 5.325 15.675 6 16.5 6Z"
+                    fill="#1D211A"
+                  />
+                  <path
+                    d="M21 10.5L16.5 6H21V10.5Z"
+                    fill="#BFC4BA"
+                  />
+                  <path
+                    d="M18 19.5C18 19.9125 17.6625 20.25 17.25 20.25H0.75C0.3375 20.25 0 19.9125 0 19.5V12C0 11.5875 0.3375 11.25 0.75 11.25H17.25C17.6625 11.25 18 11.5875 18 12V19.5Z"
+                    fill="#378906"
+                  />
+                  <path
+                    d="M17.25 20.25H3V21H17.25C17.6625 21 18 20.6625 18 20.25V19.5C18 19.9125 17.6625 20.25 17.25 20.25Z"
+                    fill="#D1D8CD"
+                  />
+                  <path
+                    clipRule="evenodd"
+                    d="M3.68798 18.0839C4.75198 18.0839 5.33998 17.5169 5.67598 16.9359L4.82198 16.5229C4.62598 16.9079 4.20598 17.2019 3.68798 17.2019C2.87598 17.2019 2.25998 16.5509 2.25998 15.6689C2.25998 14.7869 2.87598 14.1359 3.68798 14.1359C4.20598 14.1359 4.62598 14.4369 4.82198 14.8149L5.67598 14.3949C5.34698 13.8139 4.75198 13.2539 3.68798 13.2539C2.32298 13.2539 1.23798 14.2339 1.23798 15.6689C1.23798 17.1039 2.32298 18.0839 3.68798 18.0839ZM8.42998 18.0839C9.68998 18.0839 10.299 17.4399 10.299 16.5859C10.299 15.5499 9.31898 15.3189 8.54898 15.1439C8.00998 15.0179 7.61798 14.9199 7.61798 14.6049C7.61798 14.3249 7.85598 14.1289 8.30398 14.1289C8.75898 14.1289 9.26298 14.2899 9.64098 14.6399L10.194 13.9119C9.73198 13.4849 9.11598 13.2609 8.37398 13.2609C7.27498 13.2609 6.60298 13.8909 6.60298 14.6679C6.60298 15.6966 7.55626 15.915 8.31445 16.0887L8.34598 16.0959C8.88498 16.2219 9.29098 16.3409 9.29098 16.6909C9.29098 16.9569 9.02498 17.2159 8.47898 17.2159C7.83498 17.2159 7.32398 16.9289 6.99498 16.5859L6.44898 17.3419C6.88998 17.7829 7.53398 18.0839 8.42998 18.0839ZM15.825 13.3309L14.026 17.9999H12.78L10.974 13.3309H12.108L13.403 16.9219L14.691 13.3309H15.825Z"
+                    fill="white"
+                    fillRule="evenodd"
+                  />
+                </svg>
+                <span
+                  className="c8 ml-1"
+                >
+                  Download 
+                  CSV
+                </span>
+              </div>
+            </div>
+            <div
+              className="item py-2"
+              onClick={[Function]}
+              role="option"
+            >
+              <div
+                className="c7"
+              >
+                <svg
+                  fill="none"
+                  height="24"
+                  style={
+                    Object {
+                      "verticalAlign": "middle",
+                    }
+                  }
+                  theme={
+                    Object {
+                      "COLORS": Object {
+                        "bg": "#E6E9EE",
+                        "bgLight": "#F4F6F9",
+                        "body": "#2b2d42",
+                        "bodyLight": "#6B6C7B",
+                        "buttonTextColor": "#FFFFFF",
+                        "danger": "#CB2C2C",
+                        "disabled": "#E6E5E8",
+                        "focused": "#130951",
+                        "globalHeaderText": "#fbfbfb",
+                        "headerBtnFill": "rgba(206, 177, 255, 0.2)",
+                        "hover": "#F2F2F2",
+                        "info": "#0061AB",
+                        "label": "#847f8d",
+                        "marketingPrimary": "#00B7B1",
+                        "marketingSecondary": "#f5b900",
+                        "placeholder": "#A6A7B0",
+                        "primary": "#6930CA",
+                        "selected": "#EFE5FF",
+                        "success": "#00A331",
+                        "timelineContentBg": "#E6E5E833",
+                        "underReviewFill": "#D68309",
+                        "warning": "#D68309",
+                        "warningBg": "rgba(214,131,9,0.1)",
+                        "white": "#FFFFFF",
+                      },
+                      "DEVICE": Object {
+                        "desktop": "@media (max-width: 2560px)",
+                        "desktopL": "@media (max-width: 2560px)",
+                        "laptop": "@media (max-width: 1024px)",
+                        "laptopL": "@media (max-width: 1440px)",
+                        "mobileL": "@media (max-width: 481px)",
+                        "mobileM": "@media (max-width: 375px)",
+                        "mobileS": "@media (max-width: 320px)",
+                        "tablet": "@media (max-width: 768px)",
+                      },
+                      "FONTS": Object {
+                        "bold": "proxima-nova-bold",
+                        "light": "proxima-nova-light",
+                        "medium": "proxima-nova-medium",
+                        "normal": "proxima-nova",
+                        "semi_bold": "proxima-nova-semi-bold",
+                        "super_bold": "proxima-nova-super-bold",
+                      },
+                      "GLOBAL_SIDEBAR": Object {
+                        "bg": "#6933D3",
+                        "brandBg": "#6933D3",
+                        "envSwitch": "#FFFFFF",
+                        "envSwitchAlt": "#5222b4",
+                        "envSwitchAltHover": "#865be5",
+                        "primaryBtn": "#E6E5E8",
+                        "secondaryBtn": "#E6E5E8",
+                        "selected": "#13095199",
+                        "text": "#EFE5FF",
+                      },
+                      "TEXT": Object {
+                        "b12": Object {
+                          "fontSize": 12,
+                          "lineHeight": 16,
+                          "weight": 600,
+                        },
+                        "b14": Object {
+                          "fontSize": 14,
+                          "lineHeight": 18,
+                          "weight": 500,
+                        },
+                        "h16": Object {
+                          "fontSize": 16,
+                          "lineHeight": 20,
+                          "weight": 500,
+                        },
+                        "h20": Object {
+                          "fontSize": 20,
+                          "lineHeight": 24,
+                          "weight": 600,
+                        },
+                        "h28": Object {
+                          "fontSize": 28,
+                          "lineHeight": 34,
+                          "weight": 400,
+                        },
+                        "h8": Object {
+                          "fontSize": 8,
+                          "letterSpacing": 2,
+                          "lineHeight": 10,
+                          "weight": 500,
+                        },
+                        "p14": Object {
+                          "fontSize": 14,
+                          "lineHeight": 20,
+                          "weight": 500,
+                        },
+                      },
+                    }
+                  }
+                  viewBox="0 0 21 24"
+                  width="21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.5 0C3.675 0 3 0.675 3 1.5V22.5C3 23.325 3.675 24 4.5 24H19.5C20.325 24 21 23.325 21 22.5V6L15 0H4.5Z"
+                    fill="#DCE0DA"
+                  />
+                  <path
+                    d="M16.5 6H21L15 0V4.5C15 5.325 15.675 6 16.5 6Z"
+                    fill="#1D211A"
+                  />
+                  <path
+                    d="M21 10.5L16.5 6H21V10.5Z"
+                    fill="#BFC4BA"
+                  />
+                  <path
+                    d="M18 19.5C18 19.9125 17.6625 20.25 17.25 20.25H0.75C0.3375 20.25 0 19.9125 0 19.5V12C0 11.5875 0.3375 11.25 0.75 11.25H17.25C17.6625 11.25 18 11.5875 18 12V19.5Z"
+                    fill="#0061AB"
+                  />
+                  <path
+                    d="M17.25 20.25H3V21H17.25C17.6625 21 18 20.6625 18 20.25V19.5C18 19.9125 17.6625 20.25 17.25 20.25Z"
+                    fill="#D1D8CD"
+                  />
+                  <path
+                    d="M6.697 18L5.003 15.599L6.592 13.331H5.395L4.338 14.927L3.267 13.331H2.084L3.673 15.606L1.979 18H3.162L4.338 16.292L5.507 18H6.697Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M10.5058 18V17.125H8.53179V13.331H7.53779V18H10.5058Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M11.2798 17.342C11.7208 17.783 12.3648 18.084 13.2608 18.084C14.5208 18.084 15.1298 17.44 15.1298 16.586C15.1298 15.55 14.1498 15.319 13.3798 15.144C12.8408 15.018 12.4488 14.92 12.4488 14.605C12.4488 14.325 12.6868 14.129 13.1348 14.129C13.5898 14.129 14.0938 14.29 14.4718 14.64L15.0248 13.912C14.5628 13.485 13.9468 13.261 13.2048 13.261C12.1058 13.261 11.4338 13.891 11.4338 14.668C11.4338 15.711 12.4138 15.921 13.1768 16.096C13.7158 16.222 14.1218 16.341 14.1218 16.691C14.1218 16.957 13.8558 17.216 13.3098 17.216C12.6658 17.216 12.1548 16.929 11.8258 16.586L11.2798 17.342Z"
+                    fill="white"
+                  />
+                </svg>
+                <span
+                  className="c8 ml-1"
+                >
+                  Download 
+                  XLS
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        className="c9"
+        data-button-variant="primary"
+        data-event-name="Primary_Button"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        size="medium"
+        type="submit"
+      >
+        Upload File
+      </button>
+      <button
+        className="c9"
+        data-button-variant="primary"
+        data-event-name=""
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        size="medium"
+        type="submit"
+      >
+        Create Form
+      </button>
+    </div>
+  </div>,
+  .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.c2.ui.table {
+  border: none;
+  background: none;
+  border-collapse: separate;
+  border-spacing: 0 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c2.ui.table tr {
+  box-shadow: none;
+}
+
+.c2.ui.table td > *,
+.c2.ui.table th > * {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ui.table thead.c3 {
+  border-radius: 0.5rem;
+}
+
+.ui.table thead.c3 tr:first-child > th:first-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.ui.table thead.c3 tr:first-child > th:last-child {
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding-right: 1.5rem;
+}
+
+.ui.table th.c5.c5 {
+  background-color: #E6E9EE;
+  border: none;
+  color: #2b2d42;
+  font-size: 0.875rem;
+  font-family: proxima-nova-semi-bold;
+  padding: 0 10px;
+  line-height: 48px;
+  width: 17%;
+}
+
+.ui.table th.c5.c5 > * {
+  vertical-align: middle;
+}
+
+.ui.table th.c6.c6 {
+  background-color: #E6E9EE;
+  border: none;
+  color: #2b2d42;
+  font-size: 0.875rem;
+  font-family: proxima-nova-semi-bold;
+  padding: 0 10px;
+  line-height: 48px;
+  width: 14.000000000000002%;
+}
+
+.ui.table th.c6.c6 > * {
+  vertical-align: middle;
+}
+
+.ui.table th.c7.c7 {
+  background-color: #E6E9EE;
+  border: none;
+  color: #2b2d42;
+  font-size: 0.875rem;
+  font-family: proxima-nova-semi-bold;
+  padding: 0 10px;
+  line-height: 48px;
+  width: 10%;
+}
+
+.ui.table th.c7.c7 > * {
+  vertical-align: middle;
+}
+
+.ui.table th.c8.c8 {
+  background-color: #E6E9EE;
+  border: none;
+  color: #2b2d42;
+  font-size: 0.875rem;
+  font-family: proxima-nova-semi-bold;
+  padding: 0 10px;
+  line-height: 48px;
+  width: 15%;
+}
+
+.ui.table th.c8.c8 > * {
+  vertical-align: middle;
+}
+
+.ui.table th.c9.c9 {
+  background-color: #E6E9EE;
+  border: none;
+  color: #2b2d42;
+  font-size: 0.875rem;
+  font-family: proxima-nova-semi-bold;
+  padding: 0 10px;
+  line-height: 48px;
+  width: 13%;
+}
+
+.ui.table th.c9.c9 > * {
+  vertical-align: middle;
+}
+
+.ui.table th.c10.c10 {
+  background-color: #E6E9EE;
+  border: none;
+  color: #2b2d42;
+  font-size: 0.875rem;
+  font-family: proxima-nova-semi-bold;
+  padding: 0 10px;
+  line-height: 48px;
+  width: 8%;
+}
+
+.ui.table th.c10.c10 > * {
+  vertical-align: middle;
+}
+
+.ui.table tbody.c11 tr > td:first-child {
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.ui.table tbody.c11 tr > td:last-child {
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding-right: 1.5rem;
+}
+
+.ui.table tr.c4.c4 {
+  cursor: auto;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  margin-top: 0.125rem;
+}
+
+.ui.table tr.c4.c4:hover {
+  box-shadow: none;
+  position: relative;
+}
+
+.ui.table tr.c4.c4.active-row td:first-child {
+  border-left: 5px solid rgba(0,97,171,0.2);
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 126px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.c0.segment {
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0.segment .ui.inverted.dimmer {
+  background-color: rgba(255,255,255,0.95);
+}
+
+<div
+    className="dimmable c0"
+    style={
+      Object {
+        "minHeight": 670,
+      }
+    }
+  >
+    <div
+      className="c1"
+      direction="column"
+    >
+      <div>
+        <table
+          className="ui fixed single line table c2"
+        >
+          <thead
+            className="c3 "
+          >
+            <tr
+              className="c4"
+            >
+              <th
+                className="c5"
+              >
+                Uploaded At
+              </th>
+              <th
+                className="c6"
+              >
+                File Name
+              </th>
+              <th
+                className="c7"
+              >
+                Total Records
+              </th>
+              <th
+                className="c7"
+              >
+                Valid
+              </th>
+              <th
+                className="c7"
+              >
+                Invalid
+              </th>
+              <th
+                className="c7"
+              >
+                Expired
+              </th>
+              <th
+                className="c8"
+              >
+                Unable to Validate
+              </th>
+              <th
+                className="c9"
+              >
+                Status
+              </th>
+              <th
+                className="c10"
+              />
+            </tr>
+          </thead>
+          <tbody
+            className="c11 "
+          />
+        </table>
+        <div
+          className="c12"
+        >
+          No record found
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

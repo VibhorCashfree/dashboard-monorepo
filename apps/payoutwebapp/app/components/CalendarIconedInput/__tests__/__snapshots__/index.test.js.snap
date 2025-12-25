@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarIconedInput shallow render & match the snapshot 1`] = `
+<hv
+  fluid={true}
+  icon={
+    <Styled(cc)
+      src="IMAGE_MOCK"
+    />
+  }
+  label={null}
+  name="date"
+  onChange={[MockFunction]}
+  placeholder="Select Date"
+  style={
+    Object {
+      "borderLeft": "1px solid #A6A7B0",
+    }
+  }
+  type="text"
+  value="12/Jun/2020"
+  width={12}
+/>
+`;

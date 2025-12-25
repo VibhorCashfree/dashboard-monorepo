@@ -1,0 +1,5 @@
+enum BATCH_DETAILS_ACTION_TYPE {
+  RESET = 'RESET',
+}
+
+export default BATCH_DETAILS_ACTION_TYPE;

@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  background: #F2F2F2;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 2`] = `
+.c0 {
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.c0 * {
+  vertical-align: middle;
+}
+
+<nav
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 3`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > div:first-child {
+  border: 1px solid #75757580;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 4`] = `
+.c0 {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 5`] = `
+.c0 {
+  padding: 1rem;
+  border: 1px solid #E6E5E8;
+  border-radius: 6px;
+  text-align: left;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-size: 12px;
+  background: #FFFFFF;
+  line-height: 1.4;
+}
+
+.c0 pre {
+  margin: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 6`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.c0 > div:nth-child(1) {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.c0 > div:nth-child(2) {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+.c0 > div:nth-child(3) {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.c0 > div:nth-child(4) {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 7`] = `
+.c0 {
+  background-color: #E6E9EE;
+  height: 1px;
+  margin: 1.5rem 0;
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 8`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > div:first-of-type {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 > div:first-of-type button {
+  margin-right: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 9`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+}
+
+.c0 > * {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 10`] = `
+.c0 {
+  color: #6B6C7B;
+  position: relative;
+}
+
+.c0 span {
+  max-width: calc(100% - 28px);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: inherit;
+}
+
+.c0 svg {
+  display: none;
+}
+
+.c0:hover svg {
+  display: inline-block;
+  cursor: pointer;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 11`] = `
+.c0 {
+  font-family: dm-sans-semi-bold;
+}
+
+.c0 span {
+  font-family: dm-sans-regular;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 12`] = `
+.c0 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 8px;
+  background-color: #EFE5FF;
+  border-radius: 2px;
+  color: #6930CA;
+  font-family: dm-sans-semi-bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 13`] = `
+.c0.c0.c0.header {
+  border: 0;
+  background-color: #E6E9EE;
+  font-family: dm-sans-semi-bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0.c0.c0.header svg.cross {
+  position: absolute;
+  top: 1.25rem;
+  right: 2rem;
+}
+
+.c1 header {
+  font-size: 1.25rem;
+  font-family: dm-sans-medium;
+}
+
+.c1 header .ui.tiny.label {
+  border-radius: 0;
+  background: #A6A7B0;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  line-height: 16px;
+  font-family: dm-sans-semi-bold;
+}
+
+<div
+  className="header c0 c1"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 14`] = `
+.c0 {
+  background-image: url(undefined);
+  background-color: #6930CA;
+  background-size: cover;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 15`] = `
+.c0 {
+  padding: 1rem 1.5rem;
+  background: linear-gradient(89.91deg,#240253 5.58%,#2b037b 91.7%);
+  background-blend-mode: multiply;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+}
+
+<div
+  className="c0"
+/>
+`;

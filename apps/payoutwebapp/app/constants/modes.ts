@@ -1,0 +1,15 @@
+export const LABEL_BY_MODE = {
+  banktransfer: 'Bank Transfer',
+  paytm: 'Paytm',
+  amazonpay: 'Amazon Pay',
+  card: 'Card',
+  creditcard: 'Credit Card',
+  opgsp: 'OPGSP',
+  paytmbank: 'Paytm Bank',
+  imps: 'IMPS',
+  neft: 'NEFT',
+  rda: 'RDA',
+  upi: 'UPI',
+  phone: 'Phone',
+  AMZN_UPI: 'Amazon Pay Wallet',
+};

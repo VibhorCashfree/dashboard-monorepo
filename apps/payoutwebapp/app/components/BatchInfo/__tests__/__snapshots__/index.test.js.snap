@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BatchInfo shallow render & match the snapshot 1`] = `
+<styled__Space
+  justifyContent="space-between"
+>
+  <styled__Space
+    gap={6}
+  >
+    <div>
+      <Yl
+        className="mb-1"
+        color="bodyLight"
+      >
+        File Name
+      </Yl>
+      <Yl
+        className="text-ellipsis"
+        variant="h16"
+      >
+        Input.csv
+      </Yl>
+    </div>
+    <div>
+      <Yl
+        className="mb-1"
+        color="bodyLight"
+      >
+        File ID
+      </Yl>
+      <Yl
+        variant="h16"
+      >
+        123
+      </Yl>
+    </div>
+    <div>
+      <Yl
+        className="mb-1"
+        color="bodyLight"
+      >
+        Uploaded At
+      </Yl>
+      <Yl
+        variant="h16"
+      >
+        30 Jan 2020, 03:51 PM
+      </Yl>
+    </div>
+    <div>
+      <Yl
+        className="mb-1"
+        color="bodyLight"
+      >
+        Uploaded By
+      </Yl>
+      <Yl
+        variant="h16"
+      >
+        John Doe
+      </Yl>
+    </div>
+  </styled__Space>
+  <styled__Space
+    gap={4}
+  >
+    <div
+      className="text-right"
+    >
+      <StatusLabel
+        className="mb-1"
+        filled={true}
+      >
+        Rejected
+      </StatusLabel>
+      <Yl
+        variant="h16"
+      >
+        ₹ 100.00
+      </Yl>
+    </div>
+  </styled__Space>
+</styled__Space>
+`;

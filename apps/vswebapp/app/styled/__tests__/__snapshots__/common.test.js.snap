@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  background: #F2F2F2;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 2`] = `
+.c0 {
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.c0 * {
+  vertical-align: middle;
+}
+
+<nav
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 3`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > div:first-child {
+  border: 1px solid #75757580;
+  border-radius: 6px;
+  margin-right: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 4`] = `
+.c0 {
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 5`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.c0 > div:nth-child(1) {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.c0 > div:nth-child(2) {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+.c0 > div:nth-child(3) {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.c0 > div:nth-child(4) {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 6`] = `
+.c0 {
+  background-color: #E6E9EE;
+  height: 1px;
+  margin: 1.5rem 0;
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 7`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 126px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+<div
+  className="c0"
+>
+  No record found
+</div>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 8`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > div:first-of-type {
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+
+.c0 > div:first-of-type button {
+  margin-right: 1rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 9`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+}
+
+.c0 > * {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 10`] = `
+.c0 {
+  color: #6B6C7B;
+  position: relative;
+}
+
+.c0 span {
+  max-width: calc(100% - 28px);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: inherit;
+}
+
+.c0 svg {
+  display: none;
+}
+
+.c0:hover svg {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #F2F2F2;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 11`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+  gap: 24px;
+}
+
+.c0 > div:nth-child(1) {
+  -webkit-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+  text-align: left;
+}
+
+.c0 > div:nth-child(2) {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  text-align: left;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 12`] = `
+.c0 {
+  font-family: proxima-nova-semi-bold;
+  margin-bottom: 2rem;
+}
+
+.c0 span {
+  font-family: proxima-nova;
+}
+
+<h3
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 13`] = `
+.c0 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 8px;
+  background-color: #EFE5FF;
+  border-radius: 2px;
+  color: #6930CA;
+  font-family: proxima-nova-semi-bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 14`] = `
+.c0 {
+  background-image: url(undefined);
+  background-color: #6930CA;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`Common Styled checks Styled: shallow render & match the snapshot 15`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0px;
+}
+
+.c1 {
+  background: #D683091a;
+}
+
+<div
+  className="c0 c1"
+/>
+`;

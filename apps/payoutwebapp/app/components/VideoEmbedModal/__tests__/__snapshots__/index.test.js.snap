@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoEmbedModal Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  border-radius: 8px;
+  border: 1px #FFFFFF66 solid;
+  box-shadow: 0 0 0 6px #FFFFFF1a;
+}
+
+<div
+  className="ui embed c0"
+  onClick={[Function]}
+>
+  <i
+    aria-hidden="true"
+    className="video play icon"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`VideoEmbedModal shallow render & match the snapshot 1`] = `
+<t
+  customErrorConfig={
+    Object {
+      "accountId": null,
+      "env": null,
+      "merchantId": null,
+      "product": "CSP",
+      "team": "PF",
+    }
+  }
+  fallback={<React.Fragment />}
+  onError={[Function]}
+>
+  <VideoEmbedModal
+    embedKey="DEVELOPERS"
+    onClose={[MockFunction]}
+  />
+</t>
+`;

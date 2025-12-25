@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsApprovals shallow render & match the snapshot 1`] = `
+<React.Fragment>
+  <M
+    className="my-3"
+    strong={true}
+    variant="h16"
+  >
+    Approvals
+  </M>
+  <Mh>
+    <vh>
+      <React.Fragment>
+        <yh
+          width={3}
+        >
+          <M
+            color="bodyLight"
+            variant="p14"
+          >
+            Approver 
+            1
+          </M>
+        </yh>
+        <yh
+          className="mb-2"
+          width={4}
+        >
+          John
+          <Bi
+            as="img"
+            className="ml-1"
+            inline={true}
+            src="IMAGE_MOCK"
+            ui={true}
+          />
+          <br />
+          <M
+            color="bodyLight"
+            variant="p14"
+          >
+            02 Feb 2021, 12:00 AM
+          </M>
+        </yh>
+      </React.Fragment>
+    </vh>
+  </Mh>
+</React.Fragment>
+`;

@@ -1,0 +1,37 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./app/*"
+      ]
+    },
+    "types": [
+      "node",
+      "@playwright/test"
+    ],
+    "allowJs": true,
+    "strict": false,
+    "module": "commonjs",
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "jsx": "react"
+  },
+  "include": [
+    "playwright.config.ts",
+    "playwright-test.config.ts",
+    "e2e/**/*",
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "webpack"
+  ]
+}

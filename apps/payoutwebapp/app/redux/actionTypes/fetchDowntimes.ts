@@ -1,0 +1,1 @@
+export const FETCH_DOWNTIMES = 'FETCH_DOWNTIMES';

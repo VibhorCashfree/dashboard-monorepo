@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExtendedDropdown shallow render & match the snapshot 1`] = `
+<React.Fragment>
+  <styled__StyledPopup
+    disabled={true}
+    position="right center"
+    trigger={
+      <Button
+        className="mr-2"
+        data-event-name="Primary_Button"
+        onClick={[Function]}
+        primary={true}
+      >
+        Update Details
+      </Button>
+    }
+  />
+  <DropdownButton
+    options={
+      Array [
+        Object {
+          "key": "DELETE",
+          "primary": false,
+          "text": "Delete",
+          "value": "DELETE",
+        },
+      ]
+    }
+  >
+    [Function]
+  </DropdownButton>
+</React.Fragment>
+`;

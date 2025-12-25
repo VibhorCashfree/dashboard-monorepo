@@ -1,0 +1,5 @@
+export enum MODAL_TYPE {
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+  EMPTY = '',
+}

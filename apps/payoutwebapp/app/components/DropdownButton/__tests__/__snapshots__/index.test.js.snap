@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownButton shallow render & match the snapshot 1`] = `
+<styled__StyledDropdown
+  icon={null}
+  onClose={[Function]}
+  onOpen={[Function]}
+  trigger={
+    <Button
+      icon={
+        <WithTheme(Icon)
+          className="ml-1"
+          fill="white"
+          name="chevron-down"
+        />
+      }
+      iconPosition="right"
+      primary={true}
+    >
+      Click
+    </Button>
+  }
+>
+  <styled__StyledMenu
+    direction="left"
+    style={
+      Object {
+        "minWidth": 224,
+      }
+    }
+  >
+    <Lu
+      scrolling={true}
+    >
+      <Styled(styled__StyledItem)
+        label={
+          <styled__Space>
+            <cc
+              as="img"
+              className="mr-1"
+              inline={true}
+              ui={true}
+              verticalAlign="top"
+            />
+            <Yl>
+              Update Details
+            </Yl>
+          </styled__Space>
+        }
+        onClick={[Function]}
+      />
+      <Styled(styled__StyledItem)
+        label={
+          <styled__Space>
+            <cc
+              as="img"
+              className="mr-1"
+              inline={true}
+              ui={true}
+              verticalAlign="top"
+            />
+            <Yl>
+              Delete
+            </Yl>
+          </styled__Space>
+        }
+        onClick={[Function]}
+      />
+    </Lu>
+  </styled__StyledMenu>
+</styled__StyledDropdown>
+`;

@@ -1,0 +1,43 @@
+import _pick from 'lodash/pick';
+
+// Constants
+import { LABEL_BY_STATUS } from 'constants/status';
+import { DATE_RANGE } from 'constants/date';
+
+export const STATUSES = [
+  'PAYOUT_TRANSFER',
+  'BANK_TRANSFER',
+  'PG_INSTANT_SETTLEMENT',
+  'UPIDETAILS_VALIDATION',
+  'TRANSFER_REVERSAL',
+  'SELF_WITHDRAWAL',
+  'AUTOCOLLECT_SETTLEMENT',
+  'PG_SETTLEMENT',
+  'INTERNAL_TRANSFER_OUT',
+  'INTERNAL_TRANSFER_IN',
+  'BANKDETAILS_VALIDATION',
+  'PANDETAILS_VERIFICATION',
+  'AADHAAR_VERIFICATION',
+  'BANKVALIDATION_CREDIT',
+  'LENDER_FUNDING',
+  'ORIGIN_FUNDING',
+  'LENDER_SHARE',
+  'LENDER_SHARE_REVERSAL',
+  'ORIGIN_SHARE',
+  'ORIGIN_SHARE_REVERSAL',
+  'LENDER_DISBURSAL',
+  'ORIGIN_DISBURSAL',
+  'LENDER_DISBURSAL_REVERSAL',
+  'ORIGIN_DISBURSAL_REVERSAL',
+];
+
+export const DATE_RANGE_OPTIONS = [DATE_RANGE.LAST_7_DAYS];
+
+export const labelByStatus = _pick(LABEL_BY_STATUS, STATUSES);
+
+export const filtersConfig = {
+  'Event Type': {
+    columns: 2,
+    items: Object.keys(labelByStatus),
+  },
+};

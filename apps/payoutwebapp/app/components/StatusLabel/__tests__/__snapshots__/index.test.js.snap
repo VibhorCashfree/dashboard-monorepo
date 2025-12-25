@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusLabel Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  line-height: initial;
+  font-size: 0.875rem;
+  display: inline-block;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`StatusLabel shallow render & match the snapshot 1`] = `
+<styled.span
+  $status="SELF_WITHDRAWAL"
+>
+  Self Withdrawal
+</styled.span>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusStats shallow render & match the snapshot 1`] = `
+<styled__Space
+  className="pb-1"
+  gap={6}
+>
+  <div>
+    <M
+      className="mb-1"
+      color="bodyLight"
+    >
+      Total
+    </M>
+    <M
+      variant="h16"
+    />
+  </div>
+  <div>
+    <M
+      className="mb-1"
+      color="bodyLight"
+    >
+      Total Records
+    </M>
+    <M
+      variant="h16"
+    >
+      10
+    </M>
+  </div>
+  <div>
+    <M
+      className="mb-1"
+      color="bodyLight"
+    >
+      Invalid
+    </M>
+    <M
+      variant="h16"
+    >
+      2
+    </M>
+  </div>
+  <div>
+    <M
+      className="mb-1"
+      color="bodyLight"
+    >
+      Success
+    </M>
+    <M
+      variant="h16"
+    >
+      7
+    </M>
+  </div>
+  <div>
+    <M
+      className="mb-1"
+      color="bodyLight"
+    >
+      Failed
+    </M>
+    <M
+      variant="h16"
+    >
+      1
+    </M>
+  </div>
+</styled__Space>
+`;

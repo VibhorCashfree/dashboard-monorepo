@@ -1,0 +1,10 @@
+// Constants
+import { MODAL_TYPE } from './constants';
+
+export type ModalsProps = {
+  modalType: MODAL_TYPE;
+  setModalType: React.Dispatch<React.SetStateAction<MODAL_TYPE>>;
+  count: number;
+  amount: number;
+  handleAction: () => void;
+};

@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In TwoFactorAuth Container shallow render & match the snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "testKey",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <TO>
+      <Context.Provider
+        value={
+          Object {
+            "accountList": Array [
+              Object {
+                "accountId": 7447,
+                "accountName": "Raj Nandan Sharma",
+                "accountType": "PAYOUT_CURRENT",
+                "availableBalance": "16.29",
+                "rechargeAccount": "70707010J15S",
+              },
+              Object {
+                "accountId": 7449,
+                "accountName": "Naman",
+                "accountType": "CONNECTED_ACCOUNT",
+                "availableBalance": "546.23",
+                "rechargeAccount": "70707010J143",
+              },
+            ],
+            "activationDetails": Object {
+              "CAC": "APPROVED",
+              "CES": "APPROVED",
+              "CSP": "APPROVED",
+              "EPOS": "APPROVED",
+              "PG": "APPROVED",
+              "authType": "OTP",
+              "userType": "MERCHANT_OWNER",
+            },
+            "permissionCodes": Array [
+              21008,
+              21504,
+            ],
+          }
+        }
+      >
+        <Context.Provider
+          value={
+            Object {
+              "accountInfo": Object {
+                "accountHolder": "sdfsdf",
+                "address": "Koramangala",
+                "bankAccount": "111111111111",
+                "bankname": "ICICI",
+                "city": "Ranchi",
+                "email": "kisley.shirish+cfmain@cashfree.com",
+                "ifsc": "ICIC0003439",
+                "isActive": "1",
+                "name": "Raj Nandan Sharma",
+                "phone": "1234567890",
+                "state": "Bengaluru",
+              },
+              "freeCreditRates": Object {
+                "AADHAAR_OCR_V": "2",
+                "AADHAAR_OFFLINE_VERIFICATION": "1",
+                "AADHAAR_VERIFICATION": "1.2",
+                "BANKDETAILS_VALIDATION": "3",
+                "BAV_ONEPAISA": "1.1",
+                "BAV_PENNILESS": "1",
+                "CIN_VERIFICATION": "1.2",
+                "CREDIT_SCOREV": "20",
+                "CREDIT_SCORE_V": "50",
+                "GSTIN_VERIFICATION": "1",
+                "IFSC_VERIFICATION": "1.5",
+                "OFFLINE_AADHAAR_VERIFICATION": "1.3",
+                "PANDETAILS_VERIFICATION": "2",
+                "PAN_OCR_V": "1",
+                "REVERSE_PENNY_DROP_V": "2",
+                "UPIDETAILS_VALIDATION": "1.2",
+                "test": "1.52",
+                "test2": "1",
+              },
+              "fundSource": Object {
+                "accountName": "",
+                "bankName": "ICICI",
+                "description": "This ismain account",
+                "fundSourceId": 102,
+                "isWallet": true,
+                "paymentInstrumentId": "CASHFREE_1",
+                "supportedModes": Array [
+                  "banktransfer",
+                  "amazonpay",
+                  "upi",
+                  "card",
+                  "creditcard",
+                  "imps",
+                  "neft",
+                  "opgsp",
+                ],
+                "type": "PAYOUT_CURRENT",
+              },
+              "fundSourceDetails": Object {
+                "accountHolderName": "Business Name",
+                "addedOn": "2023-09-28T21:46:28+05:30",
+                "bankAccount": "12345678",
+                "cfBankId": 4,
+                "cfBankName": "YES",
+                "cfBankType": "CURRENT",
+                "cfCredId": 0,
+                "cfGatewayId": 0,
+                "connBankName": "",
+                "displayName": "VRS_352818",
+                "fsBalance": Object {
+                  "availableBalance": "20000",
+                  "balance": "20000",
+                  "fundsOnHold": "0",
+                  "lastUpdated": "2023-09-28 22:55:02",
+                  "overdraft": "0",
+                },
+                "fsDescription": "Dedicated VRS wallet",
+                "fsDisplayType": "CF_WALLET",
+                "fsType": "PAYOUT_NODAL",
+                "fundSourceId": 516730,
+                "ifsc": "CASH0FREE01",
+                "isDefault": false,
+                "isMainAccount": true,
+                "isPayoutWallet": true,
+                "paymentInstrumentId": "VRS_352818",
+                "preferences": Array [
+                  Object {
+                    "property": "FUND_SOURCE_WEIGHTAGE",
+                    "value": "0",
+                  },
+                ],
+                "product": "VRS",
+                "status": "ACTIVE",
+                "supportedModes": Array [
+                  "banktransfer",
+                  "amazonpay",
+                  "upi",
+                  "card",
+                  "creditcard",
+                  "creditcardUpi",
+                  "imps",
+                  "neft",
+                  "opgsp",
+                ],
+              },
+              "preferences": Object {
+                "activated": Object {
+                  "aadhaar-ocr": true,
+                  "bav": Object {
+                    "Rate": "1.1",
+                    "ServiceName": "BANKDETAILS_VALIDATION",
+                    "VariableAmount": 0,
+                  },
+                  "bav-rpd": true,
+                  "gstIn": true,
+                  "ifsc": true,
+                  "okyc": true,
+                  "pan": Object {
+                    "Rate": "1.5",
+                    "ServiceName": "PANDETAILS_VERIFICATION",
+                    "VariableAmount": 1,
+                  },
+                  "upi": true,
+                  "upi-mobile": true,
+                },
+                "bav": Object {
+                  "batch": "1",
+                  "upload": true,
+                },
+                "beneficiaries": Object {
+                  "upload": true,
+                },
+                "forms": Object {
+                  "upload": true,
+                },
+                "isConnected": false,
+                "pan": Object {
+                  "upload": true,
+                },
+                "quickTransfer": true,
+                "selfWithdrawal": true,
+                "upi": Object {
+                  "upload": true,
+                },
+              },
+            }
+          }
+        >
+          <TwoFactorProvider>
+            <Unknown />
+          </TwoFactorProvider>
+        </Context.Provider>
+      </Context.Provider>
+    </TO>
+  </Provider>
+</MemoryRouter>
+`;

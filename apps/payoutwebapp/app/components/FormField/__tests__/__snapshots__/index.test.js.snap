@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField shallow render & match the snapshot 1`] = `
+<React.Fragment>
+  <Yl
+    className="mb-1"
+    color="bodyLight"
+  >
+    This is label
+     
+    <styled__StyledPopup
+      content="This is a description"
+      position="right center"
+      trigger={
+        <span>
+          <WithTheme(Icon)
+            className="pointer"
+            name="info"
+            verticalAlign="top"
+          />
+        </span>
+      }
+    />
+  </Yl>
+  <styled__StyledDropdown
+    error="This is an error"
+    name="foo"
+    onChange={[MockFunction]}
+    options={Array []}
+    placeholder="Choose a This is label"
+    required={true}
+    selection={true}
+    value="bar"
+  />
+</React.Fragment>
+`;

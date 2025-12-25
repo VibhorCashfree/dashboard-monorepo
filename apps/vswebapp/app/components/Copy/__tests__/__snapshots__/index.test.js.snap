@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Copy checks render Null 1`] = `null`;
+
+exports[`Copy shallow render & match the snapshot 1`] = `
+<WithTheme(Icon)
+  className="pointer"
+  data-testid="copy-btn"
+  name="copy"
+  onClick={[Function]}
+/>
+`;

@@ -1,0 +1,14 @@
+{
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "section": "Chores" },
+    { "type": "docs", "section": "Documentation" },
+    { "type": "style", "section": "Style" },
+    { "type": "refactor", "section": "Refactor" },
+    { "type": "perf", "section": "Performance" },
+    { "type": "test", "section": "Testing" }
+  ],
+  "commitUrlFormat": "https://bitbucket.org/cashfree/vswebapp/commits/{{hash}}",
+  "compareUrlFormat": "https://bitbucket.org/cashfree/vswebapp/compare/{{previousTag}}...{{currentTag}}"
+}

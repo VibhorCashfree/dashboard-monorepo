@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationProvider shallow render & match the snapshot 1`] = `
+<ErrorBoundary
+  fallback={<React.Fragment />}
+>
+  <React.Suspense
+    fallback={<React.Fragment />}
+  >
+    <UNDEFINED>
+      <h1>
+        Hello
+      </h1>
+    </UNDEFINED>
+  </React.Suspense>
+</ErrorBoundary>
+`;

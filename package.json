@@ -1,0 +1,17 @@
+{
+  "name": "dashboard-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:vswebapp": "npm run start --workspace=apps/vswebapp",
+    "build:vswebapp": "npm run build --workspace=apps/vswebapp",
+    "start:payoutwebapp": "npm run start --workspace=apps/payoutwebapp",
+    "build:payoutwebapp": "npm run build --workspace=apps/payoutwebapp"
+  },
+  "devDependencies": {
+      "typescript": "4.5.3"
+  }
+}

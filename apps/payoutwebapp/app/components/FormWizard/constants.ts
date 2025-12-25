@@ -1,0 +1,7 @@
+export enum ACTION_TYPE {
+  HEADER_SETUP_FEE = 'HEADER_SETUP_FEE',
+  SUBMIT = 'SUBMIT',
+  CLOSE = 'CLOSE',
+
+  EMPTY = '',
+}

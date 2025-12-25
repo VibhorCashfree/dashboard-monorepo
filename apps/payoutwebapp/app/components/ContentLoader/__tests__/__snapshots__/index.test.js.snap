@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentLoader Styled: shallow render & match the snapshot 1`] = `
+.c0.segment {
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0.segment .ui.inverted.dimmer {
+  background-color: rgba(255,255,255,0.95);
+}
+
+<div
+  className="dimmable c0"
+/>
+`;
+
+exports[`ContentLoader shallow render & match the snapshot 1`] = `
+<Styled(rc)
+  as={[Function]}
+  dimmed={true}
+>
+  <Mv
+    active={true}
+    page={false}
+  />
+  <h3>
+    Anything here
+  </h3>
+  <p>
+    Some more content
+  </p>
+</Styled(rc)>
+`;

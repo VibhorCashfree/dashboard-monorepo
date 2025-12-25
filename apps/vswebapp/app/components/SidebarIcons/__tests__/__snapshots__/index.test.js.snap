@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SidebarIcons shallow render & match the snapshot 1`] = `
+<Unknown
+  theme={
+    Object {
+      "COLORS": Object {
+        "bg": "#E6E9EE",
+        "bgLight": "#F4F6F9",
+        "body": "#2b2d42",
+        "bodyLight": "#6B6C7B",
+        "buttonTextColor": "#FFFFFF",
+        "danger": "#CB2C2C",
+        "disabled": "#E6E5E8",
+        "focused": "#130951",
+        "globalHeaderText": "#fbfbfb",
+        "headerBtnFill": "rgba(206, 177, 255, 0.2)",
+        "hover": "#F2F2F2",
+        "info": "#0061AB",
+        "label": "#847f8d",
+        "marketingPrimary": "#00B7B1",
+        "marketingSecondary": "#f5b900",
+        "placeholder": "#A6A7B0",
+        "primary": "#6930CA",
+        "selected": "#EFE5FF",
+        "success": "#00A331",
+        "timelineContentBg": "#E6E5E833",
+        "underReviewFill": "#D68309",
+        "warning": "#D68309",
+        "warningBg": "rgba(214,131,9,0.1)",
+        "white": "#FFFFFF",
+      },
+      "DEVICE": Object {
+        "desktop": "@media (max-width: 2560px)",
+        "desktopL": "@media (max-width: 2560px)",
+        "laptop": "@media (max-width: 1024px)",
+        "laptopL": "@media (max-width: 1440px)",
+        "mobileL": "@media (max-width: 481px)",
+        "mobileM": "@media (max-width: 375px)",
+        "mobileS": "@media (max-width: 320px)",
+        "tablet": "@media (max-width: 768px)",
+      },
+      "FONTS": Object {
+        "bold": "proxima-nova-bold",
+        "light": "proxima-nova-light",
+        "medium": "proxima-nova-medium",
+        "normal": "proxima-nova",
+        "semi_bold": "proxima-nova-semi-bold",
+        "super_bold": "proxima-nova-super-bold",
+      },
+      "GLOBAL_SIDEBAR": Object {
+        "bg": "#6933D3",
+        "brandBg": "#6933D3",
+        "envSwitch": "#FFFFFF",
+        "envSwitchAlt": "#5222b4",
+        "envSwitchAltHover": "#865be5",
+        "primaryBtn": "#E6E5E8",
+        "secondaryBtn": "#E6E5E8",
+        "selected": "#13095199",
+        "text": "#EFE5FF",
+      },
+      "TEXT": Object {
+        "b12": Object {
+          "fontSize": 12,
+          "lineHeight": 16,
+          "weight": 600,
+        },
+        "b14": Object {
+          "fontSize": 14,
+          "lineHeight": 18,
+          "weight": 500,
+        },
+        "h16": Object {
+          "fontSize": 16,
+          "lineHeight": 20,
+          "weight": 500,
+        },
+        "h20": Object {
+          "fontSize": 20,
+          "lineHeight": 24,
+          "weight": 600,
+        },
+        "h28": Object {
+          "fontSize": 28,
+          "lineHeight": 34,
+          "weight": 400,
+        },
+        "h8": Object {
+          "fontSize": 8,
+          "letterSpacing": 2,
+          "lineHeight": 10,
+          "weight": 500,
+        },
+        "p14": Object {
+          "fontSize": 14,
+          "lineHeight": 20,
+          "weight": 500,
+        },
+      },
+    }
+  }
+>
+  <Aadhaar
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Accounts
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <BankAccount
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <BankAccountRPD
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <BasicPAN
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <BasicValidation
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Beneficiaries
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Cashgrams
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Cin
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Developers
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <DigiLocker
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <DrivingLicense
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <ESign
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Forms
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Forms
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <GSTIN
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <GlobalPayouts
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Ifsc
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <NameMatch
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <OKYC
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Pan
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <PANGstin
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <PANOcr
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <PANadvance
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Passport
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Payouts
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <RC
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Reports
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <ReverseGeoCoding
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Summary
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <Transfers
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <UPI
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <UPIadvance
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <UPImobile
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <UPIvpa
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <VerificationSuite
+    className="pointer"
+    fill="#6B6C7B"
+  />
+  <VoterId
+    className="pointer"
+    fill="#6B6C7B"
+  />
+</Unknown>
+`;

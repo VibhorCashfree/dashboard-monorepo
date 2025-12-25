@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In Cashgrams page shallow render & match the snapshot 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "pathname": "/batch",
+      },
+    ]
+  }
+>
+  <WO>
+    <Context.Provider
+      value={
+        Object {
+          "accountList": Array [
+            Object {
+              "accountId": 7447,
+              "accountName": "Raj Nandan Sharma",
+              "accountType": "PAYOUT_CURRENT",
+              "availableBalance": "16.29",
+              "rechargeAccount": "70707010J15S",
+            },
+          ],
+          "featureFlags": Object {},
+          "merchantDetails": Object {
+            "authType": "OTP",
+            "cfProductStatus": Object {
+              "CAC": "APPROVED",
+              "CES": "APPROVED",
+              "CSP": "APPROVED",
+              "EPOS": "APPROVED",
+              "PG": "APPROVED",
+            },
+            "userType": "MERCHANT_OWNER",
+          },
+          "merchantSettings": Object {
+            "enableConnectedWallet": false,
+            "enableMerchantAPIKeyAddition": false,
+          },
+          "restrictionCodes": Array [],
+        }
+      }
+    >
+      <Context.Provider
+        value={
+          Object {
+            "accountConfig": Object {
+              "MerchantEmail": "example@example.com",
+              "MerchantName": "XXXX",
+            },
+            "accountInfo": Object {
+              "accountHolder": "sdfsdf",
+              "address": "Koramangala",
+              "bankAccount": "111111111111",
+              "bankname": "ICICI",
+              "city": "Ranchi",
+              "email": "kisley.shirish+cfmain@cashfree.com",
+              "ifsc": "ICIC0003439",
+              "isActive": "1",
+              "name": "Raj Nandan Sharma",
+              "phone": "1234567890",
+              "state": "Bengaluru",
+            },
+            "permissionCodes": Array [],
+            "preferences": Object {
+              "bav": Object {
+                "activated": Object {
+                  "Rate": "1.1",
+                  "ServiceName": "BANKDETAILS_VALIDATION",
+                  "VariableAmount": 0,
+                },
+                "batch": "1",
+                "upload": true,
+              },
+              "beneficiaries": Object {
+                "purpose": Object {
+                  "corpCC": true,
+                  "others": true,
+                },
+              },
+              "cashgrams": Object {
+                "activated": true,
+                "batch": "1",
+                "individual": "1",
+                "upload": true,
+                "verify": true,
+              },
+              "isConnected": false,
+              "merchantPreferences": Object {
+                "AMAZON_UPI_BENE_NOTIFY_MEDIUM": 30,
+                "BULK_UPLOADS_BENE": false,
+                "CASHGRAM_MERCHANT_NAME": "Dream11",
+                "CASHGRAM_REDIRECT_URL": "https://whydowehope.gov.in",
+                "CASHGRAM_SUPPORT_MAIL": "example@cashfree.com",
+                "CASHGRAM_TRANSFER_ENABLED": true,
+                "CASHGRAM_VALIDATION_BV_RATE": 30,
+                "CASHGRAM_VALIDATION_CREATION_RATE": 30,
+                "DISABLE_NEFT_RETRY": true,
+                "DISABLE_RETRY_TRANSFER_PAYOUT": true,
+                "INCIDENT_WEBHOOK_ENABLED": true,
+                "MAX_LOW_BALANCE_QUEUEING_TIME": 100,
+                "PHONE_MODE_NAME_MATCH_THRESHOLD": 50,
+                "TRANSFERS_MAX_RETRY_TIME": 20,
+              },
+              "modeByName": Object {
+                "AMZN_UPI": Object {
+                  "ID": 184060,
+                  "IsQueued": 0,
+                  "Mode": "AMZN_UPI",
+                  "ModeID": 13,
+                  "Status": "",
+                },
+                "amazonpay": Object {
+                  "ID": 150842,
+                  "IsQueued": 0,
+                  "Mode": "amazonpay",
+                  "ModeID": 5,
+                  "Status": "",
+                },
+                "card": Object {
+                  "ID": 184181,
+                  "IsQueued": 0,
+                  "Mode": "card",
+                  "ModeID": 4,
+                  "Status": "",
+                },
+                "creditcard": Object {
+                  "ID": 184182,
+                  "IsQueued": 0,
+                  "Mode": "creditcard",
+                  "ModeID": 6,
+                  "Status": "",
+                },
+                "imps": Object {
+                  "ID": 149262,
+                  "IsQueued": 0,
+                  "Mode": "imps",
+                  "ModeID": 9,
+                  "Status": "",
+                },
+                "neft": Object {
+                  "ID": 149263,
+                  "IsQueued": 0,
+                  "Mode": "neft",
+                  "ModeID": 10,
+                  "Status": "",
+                },
+                "phone": Object {
+                  "ID": 151498,
+                  "IsQueued": 0,
+                  "Mode": "phone",
+                  "ModeID": 12,
+                  "Status": "",
+                },
+                "upi": Object {
+                  "ID": 149264,
+                  "IsQueued": 0,
+                  "Mode": "upi",
+                  "ModeID": 3,
+                  "Status": "",
+                },
+              },
+              "pan": Object {
+                "activated": Object {
+                  "Rate": "1.5",
+                  "ServiceName": "PANDETAILS_VERIFICATION",
+                  "VariableAmount": 1,
+                },
+                "upload": true,
+              },
+              "quickTransfer": true,
+              "selfWithdrawal": true,
+              "transfers": Object {
+                "batch": "1",
+                "individual": "0",
+                "upload": true,
+              },
+              "webhookVersion": "4-9-2020",
+            },
+            "slabCharges": Array [],
+            "yesBusinessType": "Partnership",
+          }
+        }
+      >
+        <ListProvider>
+          <BatchDetailsProvider>
+            <Unknown />
+          </BatchDetailsProvider>
+        </ListProvider>
+      </Context.Provider>
+    </Context.Provider>
+  </WO>
+</MemoryRouter>
+`;

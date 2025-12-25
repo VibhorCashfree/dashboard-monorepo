@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HoverTextCopy Styled: shallow render & match the snapshot 1`] = `
+.c0.segment {
+  box-shadow: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c0.segment .ui.inverted.dimmer {
+  background-color: rgba(255,255,255,0.95);
+}
+
+<div
+  className="dimmable c0"
+/>
+`;
+
+exports[`HoverTextCopy Styled: shallow render & match the snapshot 2`] = `
+.c0 {
+  position: fixed;
+  cursor: pointer;
+}
+
+<div
+  className="ui dimmer c0"
+  onClick={[Function]}
+/>
+`;
+
+exports[`HoverTextCopy shallow render & match the snapshot 1`] = `
+<styled__StyledDimmable
+  as={null}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  this is main content
+</styled__StyledDimmable>
+`;

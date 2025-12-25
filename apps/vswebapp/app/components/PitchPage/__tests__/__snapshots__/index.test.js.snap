@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PitchPage Styled: shallow render & match the snapshot 1`] = `
+.c0 {
+  background-image: url(undefined);
+  background-color: #6930CA;
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 12px;
+  min-height: 294px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c0 .text-section {
+  max-width: 550px;
+}
+
+.c0 .text-section .description {
+  max-width: 90%;
+}
+
+.c0 .embed-section {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  max-width: 434px;
+  width: 45%;
+}
+
+.c0 .embed-section .ui.image {
+  border-radius: 8px;
+  border: 1px #FFFFFF66 solid;
+  box-shadow: 0 0 0 6px #FFFFFF1a;
+}
+
+.c0 p {
+  max-width: 680px;
+}
+
+@media only screen and (min-width:1250px) {
+  .c0 .text-section .description {
+    max-width: none;
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  .c0 .embed-section {
+    max-width: 600px;
+  }
+}
+
+<section
+  className="c0"
+/>
+`;
+
+exports[`PitchPage Styled: shallow render & match the snapshot 2`] = `
+.c0 .title {
+  position: relative;
+  padding-bottom: 18px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: proxima-nova-semi-bold;
+  margin-bottom: 22px;
+}
+
+.c0 .title:after {
+  background-color: #6930CA;
+  left: 0;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 49px;
+}
+
+@media only screen and (min-width:1250px) {
+
+}
+
+@media only screen and (min-width:1440px) {
+
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`PitchPage Styled: shallow render & match the snapshot 3`] = `
+.c0 {
+  line-height: 28px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width:1250px) {
+
+}
+
+@media only screen and (min-width:1440px) {
+
+}
+
+<div
+  className="c0"
+/>
+`;

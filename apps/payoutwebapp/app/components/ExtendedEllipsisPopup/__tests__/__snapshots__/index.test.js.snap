@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExtendedEllipsisPopup shallow render & match the snapshot 1`] = `
+<React.Fragment>
+  <lg
+    menuItems={
+      Array [
+        Object {
+          "key": "UPDATE_DETAILS",
+          "primary": false,
+          "text": "Update Details",
+          "value": "UPDATE_DETAILS",
+        },
+        Object {
+          "key": "DELETE",
+          "primary": false,
+          "text": "Delete",
+          "value": "DELETE",
+        },
+      ]
+    }
+  />
+</React.Fragment>
+`;

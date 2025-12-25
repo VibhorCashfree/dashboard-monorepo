@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApprovalsModalInfo shallow render & match the snapshot 1`] = `
+<styled__Space
+  className="mt-3"
+  direction="column"
+  gap={2}
+>
+  <styled__Space
+    justifyContent="space-between"
+  >
+    <Yl
+      className="text-grey"
+      color="bodyLight"
+    >
+      File Name
+    </Yl>
+    <Yl>
+      Input.csv
+    </Yl>
+  </styled__Space>
+  <styled__Space
+    justifyContent="space-between"
+  >
+    <Yl
+      className="text-grey"
+      color="bodyLight"
+    >
+      Count
+    </Yl>
+    <Yl>
+      12
+    </Yl>
+  </styled__Space>
+  <styled__Space
+    justifyContent="space-between"
+  >
+    <Yl
+      className="text-grey"
+      color="bodyLight"
+    >
+      Amount
+    </Yl>
+    <Yl>
+      ₹ 100.00
+    </Yl>
+  </styled__Space>
+</styled__Space>
+`;
