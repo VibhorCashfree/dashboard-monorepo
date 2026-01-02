@@ -17,7 +17,7 @@
   "scripts": {
     "version": "echo $npm_package_version",
     "prebuild": "npm run build:clean",
-    "postinstall": "cd .. && husky install vswebapp/.husky",
+    "postinstall": "cd ../.. && husky install apps/vswebapp/.husky",
     "build": "export NODE_ENV=development && webpack-cli --config webpack/webpack.dev.js",
     "build_dev": "export NODE_ENV=development && webpack-cli --config webpack/webpack.dev.js",
     "build_prod": "export NODE_ENV=prod && webpack --config webpack/webpack.prod.js",
