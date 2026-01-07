@@ -43,6 +43,7 @@
     "release": "standard-version --release-as major--no-verify",
     "release_minor": "standard-version --release-as minor --no-verify",
     "release_patch": "standard-version --release-as patch --no-verify",
+    "build:clean": "rimraf ./build",
     "start": "export APP_ENV=development && webpack-cli serve --config webpack/webpack.dev.js --open",
     "start_gamma": "export APP_ENV=gamma && webpack-cli serve --config webpack/webpack.dev.js --open",
     "test": "jest --coverage --detectOpenHandles --forceExit --passWithNoTests --openHandlesTimeout=10000 --testTimeout=30000",
@@ -90,8 +91,7 @@
     "types": "^0.1.1"
   },
   "devDependencies": {
-    "@dashboard-monorepo/config-prettier": "*",
-    "@dashboard-monorepo/config-eslint": "*",
+    "@dashboard-monorepo/shared": "*",
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.18.10",
     "@babel/preset-react": "^7.18.6",

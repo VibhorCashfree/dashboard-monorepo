@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@dashboard-monorepo/config-eslint', 
+    require.resolve('@dashboard-monorepo/shared/eslint-config'), 
     'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',

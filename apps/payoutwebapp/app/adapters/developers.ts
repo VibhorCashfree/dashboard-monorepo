@@ -1,9 +1,3 @@
-type Response = {
-  userName: string;
-};
+import { Developers } from '@dashboard-monorepo/shared';
 
-const from = (response: Response[]) => response.map((user) => user.userName);
-
-export default {
-  from,
-};
+export default Developers;

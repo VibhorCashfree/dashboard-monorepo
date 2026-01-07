@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-      '@dashboard-monorepo/config-eslint',
+      require.resolve('@dashboard-monorepo/shared/eslint-config'),
       'airbnb', 
       'prettier/react'
   ], 

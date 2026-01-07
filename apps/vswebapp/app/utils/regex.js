@@ -61,32 +61,6 @@ const cin = value =>
     value,
   );
 
-const formatDocumentInfo = data => {
-  const formatList = data.map(doc => doc.replace(/_/g, ' ')).join(', ');
-
-  return formatList;
-};
-
-const Regex = {
-  ip,
-  alphaNumeric,
-  alphaNumericWithWhitespaces,
-  alphabetsWithWhitespaces,
-  alphaNumericWithUnderscores,
-  alphaNumericWithUnderscoresAndHyphnes,
-  alphaNumericWithDotHyphen,
-  digits,
-  email,
-  url,
-  accountName,
-  registrationCertificate,
-  drivingLicense,
-  voterId,
-  journeyName,
-  ifsc,
-  vpa,
-  cin,
-  formatDocumentInfo,
-};
+import { Regex } from '@dashboard-monorepo/shared';
 
 export default Regex;

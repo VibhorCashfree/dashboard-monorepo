@@ -6,7 +6,7 @@ module.exports = {
   ],
   plugins: ['react', 'prettier'],
   rules: {
-    'prettier/prettier': ['error', require('@dashboard-monorepo/config-prettier')],
+    'prettier/prettier': ['error', require('./prettier-config')],
     'react/display-name': 'off',
     'no-irregular-whitespace': 'off',
     'react/no-render-return-value': 'off',
@@ -18,5 +18,8 @@ module.exports = {
      react: {
        version: 'detect',
      },
+  },
+  env: {
+    node: true,
   }
 };

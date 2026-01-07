@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.useBoolean = void 0;
+const react_1 = require("react");
+const useBoolean = (initialValue) => {
+    const [value, setValue] = (0, react_1.useState)(initialValue);
+    const setTrue = () => setValue(true);
+    const setFalse = () => setValue(false);
+    return [value, setTrue, setFalse];
+};
+exports.useBoolean = useBoolean;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlQm9vbGVhbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9ob29rcy91c2VCb29sZWFuLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLGlDQUFpQztBQUUxQixNQUFNLFVBQVUsR0FBRyxDQUFDLFlBQXFCLEVBQUUsRUFBRTtJQUNsRCxNQUFNLENBQUMsS0FBSyxFQUFFLFFBQVEsQ0FBQyxHQUFHLElBQUEsZ0JBQVEsRUFBQyxZQUFZLENBQUMsQ0FBQztJQUVqRCxNQUFNLE9BQU8sR0FBRyxHQUFHLEVBQUUsQ0FBQyxRQUFRLENBQUMsSUFBSSxDQUFDLENBQUM7SUFDckMsTUFBTSxRQUFRLEdBQUcsR0FBRyxFQUFFLENBQUMsUUFBUSxDQUFDLEtBQUssQ0FBQyxDQUFDO0lBRXZDLE9BQU8sQ0FBQyxLQUFLLEVBQUUsT0FBTyxFQUFFLFFBQVEsQ0FBVSxDQUFDO0FBQzdDLENBQUMsQ0FBQztBQVBXLFFBQUEsVUFBVSxjQU9yQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xuXG5leHBvcnQgY29uc3QgdXNlQm9vbGVhbiA9IChpbml0aWFsVmFsdWU6IGJvb2xlYW4pID0+IHtcbiAgY29uc3QgW3ZhbHVlLCBzZXRWYWx1ZV0gPSB1c2VTdGF0ZShpbml0aWFsVmFsdWUpO1xuXG4gIGNvbnN0IHNldFRydWUgPSAoKSA9PiBzZXRWYWx1ZSh0cnVlKTtcbiAgY29uc3Qgc2V0RmFsc2UgPSAoKSA9PiBzZXRWYWx1ZShmYWxzZSk7XG5cbiAgcmV0dXJuIFt2YWx1ZSwgc2V0VHJ1ZSwgc2V0RmFsc2VdIGFzIGNvbnN0O1xufTtcbiJdfQ==

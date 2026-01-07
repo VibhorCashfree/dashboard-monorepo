@@ -1,6 +1,17 @@
-import _keyBy from 'lodash/keyBy';
-import _mapValues from 'lodash/mapValues';
 import { Amount } from '@cashfree-intl/coherent';
+import {
+  getQueryString,
+  triggerDownload,
+  copyToClipboard,
+  getSizeText,
+  downloadText,
+  formatNumber,
+  decodeFile,
+  arrayToObject,
+  joinWithAnd,
+  showDownload,
+  getFileName as getFileNameShared,
+} from '@dashboard-monorepo/shared';
 
 // Utils
 import Env from './env';
@@ -8,60 +19,20 @@ import getQuery from './getQuery';
 import Emitter from './emitter';
 import { captureException } from '@sentry/react';
 
-export const getQueryString = obj =>
-  Object.keys(obj).reduce((acc, key) => {
-    let str = acc;
-    const value = obj[key];
-
-    if (Array.isArray(value)) {
-      if (value.length) {
-        str += `${value.map(v => getEncodeURI(key, v)).join('')}`;
-      }
-    } else if (value) {
-      str += getEncodeURI(key, value);
-    }
-
-    return str;
-  }, '');
-
-const getEncodeURI = (key, value) => `${key}=${encodeURIComponent(value)}&`;
-
-export const triggerDownload = (dataObj, name = '') => {
-  if (!window.URL.createObjectURL) {
-    return;
-  }
-
-  const link = document.createElement('a');
-  const zipFile = window.URL.createObjectURL(
-    new Blob([dataObj.payload], { type: 'octet/stream' }),
-  );
-
-  link.href = dataObj.type === 'URL' ? dataObj.payload : zipFile;
-
-  link.setAttribute('download', name);
-  link.setAttribute('target', '_blank');
-
-  document.body.appendChild(link);
-
-  link.click();
-  link.remove();
+export {
+  getQueryString,
+  triggerDownload,
+  copyToClipboard,
+  getSizeText,
+  downloadText,
+  formatNumber,
+  decodeFile,
+  arrayToObject,
+  joinWithAnd,
+  showDownload,
 };
 
-export const copyToClipboard = value => {
-  navigator.clipboard.writeText(value);
-};
-
-export const getSizeText = size => {
-  if (size) {
-    const k = 1024;
-    const suffix = ['Bytes', 'KB', 'MB', 'GB'];
-    const i = Math.floor(Math.log(size) / Math.log(k));
-
-    return `${parseFloat((size / k ** i).toFixed(1))} ${suffix[i]}`;
-  }
-
-  return '0 Byte';
-};
+export const getFileName = (fileName, id, status) => getFileNameShared(fileName, id, status);
 
 const rupeeFormat = new Intl.NumberFormat('en-IN', {
   style: 'currency',
@@ -74,22 +45,6 @@ export const formatAmount = amount =>
     .format(amount)
     .replace('NaN', '0.00')
     .replace('₹', '₹ ');
-
-export const downloadText = (filename, text) => {
-  const element = document.createElement('a');
-  element.setAttribute(
-    'href',
-    `data:text/plain;charset=utf-8,${encodeURIComponent(text)}`,
-  );
-  element.setAttribute('download', filename);
-
-  element.style.display = 'none';
-  document.body.appendChild(element);
-
-  element.click();
-
-  document.body.removeChild(element);
-};
 
 export const getBaseURL = () => {
   if (Env.isTest()) {
@@ -219,55 +174,6 @@ export const digitOnlyKeys = e => {
   if (!(isNumber || NAVIGATION_KEYS.includes(e.key))) {
     e.preventDefault();
   }
-};
-
-export const formatNumber = num => {
-  if (num > 999 && num < 1000000) {
-    return `${(num / 1000).toFixed(1)}K`;
-  }
-
-  if (num > 1000000) {
-    return `${(num / 1000000).toFixed(1)}M`;
-  }
-
-  if (num < 1000) {
-    return num;
-  }
-};
-
-export const decodeFile = (str = '') => {
-  const buffer = Buffer.from(str, 'base64');
-  return buffer.toString();
-};
-
-export const arrayToObject = (arr, idKey, valueKey) =>
-  _mapValues(_keyBy(arr, idKey), valueKey);
-
-export const joinWithAnd = inputArr => {
-  const arr = [...inputArr];
-
-  if (arr.length > 1) {
-    const last = arr.pop();
-    return `${arr.join(', ')} and ${last}`;
-  }
-
-  return arr.join(', ');
-};
-
-export const showDownload = status => status !== 'APPROVED';
-
-export const getFileName = (fileName, id, status) => {
-  const idx = fileName.lastIndexOf('.');
-  const prefix = fileName.slice(0, idx);
-  const suffix = id;
-  const extension = fileName.slice(idx);
-
-  if (status === 'PROCESSING') {
-    return `${prefix}(${suffix})_pending${extension}`;
-  }
-
-  // Eg. <file_name>(<file_id>).<extension> : test(123).csv
-  return `${prefix}(${suffix})${extension}`;
 };
 
 export const formatDate = date => {

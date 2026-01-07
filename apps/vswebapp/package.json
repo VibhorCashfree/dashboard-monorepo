@@ -163,8 +163,7 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@dashboard-monorepo/config-prettier": "*",
-    "@dashboard-monorepo/config-eslint": "*",
+    "@dashboard-monorepo/shared": "*",
     "@babel/cli": "7.4.3",
     "@babel/core": "7.4.3",
     "@babel/plugin-proposal-class-properties": "7.4.0",

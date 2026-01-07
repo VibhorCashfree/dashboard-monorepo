@@ -1,1 +1,4 @@
-export default users => users.map(user => user.userName);
+import { Developers } from '@dashboard-monorepo/shared';
+
+export default Developers;
+

@@ -1,4 +1,1 @@
-const config = require('@dashboard-monorepo/config-prettier');
-module.exports = {
-  ...config,
-};
+module.exports = require('@dashboard-monorepo/shared/prettier-config');

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.useToggle = void 0;
+const react_1 = require("react");
+const useToggle = (initialValue) => {
+    const [value, setValue] = (0, react_1.useState)(initialValue);
+    const toggleValue = () => setValue(!value);
+    return [value, toggleValue];
+};
+exports.useToggle = useToggle;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlVG9nZ2xlLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2hvb2tzL3VzZVRvZ2dsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxpQ0FBaUM7QUFFMUIsTUFBTSxTQUFTLEdBQUcsQ0FBQyxZQUFxQixFQUF5QixFQUFFO0lBQ3hFLE1BQU0sQ0FBQyxLQUFLLEVBQUUsUUFBUSxDQUFDLEdBQUcsSUFBQSxnQkFBUSxFQUFDLFlBQVksQ0FBQyxDQUFDO0lBRWpELE1BQU0sV0FBVyxHQUFHLEdBQUcsRUFBRSxDQUFDLFFBQVEsQ0FBQyxDQUFDLEtBQUssQ0FBQyxDQUFDO0lBRTNDLE9BQU8sQ0FBQyxLQUFLLEVBQUUsV0FBVyxDQUFDLENBQUM7QUFDOUIsQ0FBQyxDQUFDO0FBTlcsUUFBQSxTQUFTLGFBTXBCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5cbmV4cG9ydCBjb25zdCB1c2VUb2dnbGUgPSAoaW5pdGlhbFZhbHVlOiBib29sZWFuKTogW2Jvb2xlYW4sICgpID0+IHZvaWRdID0+IHtcbiAgY29uc3QgW3ZhbHVlLCBzZXRWYWx1ZV0gPSB1c2VTdGF0ZShpbml0aWFsVmFsdWUpO1xuXG4gIGNvbnN0IHRvZ2dsZVZhbHVlID0gKCkgPT4gc2V0VmFsdWUoIXZhbHVlKTtcblxuICByZXR1cm4gW3ZhbHVlLCB0b2dnbGVWYWx1ZV07XG59O1xuIl19

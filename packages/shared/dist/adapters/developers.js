@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.from = void 0;
+const from = (response) => response.map((user) => user.userName);
+exports.from = from;
+exports.default = {
+    from: exports.from,
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGV2ZWxvcGVycy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9hZGFwdGVycy9kZXZlbG9wZXJzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUlPLE1BQU0sSUFBSSxHQUFHLENBQUMsUUFBNkIsRUFBRSxFQUFFLENBQ3BELFFBQVEsQ0FBQyxHQUFHLENBQUMsQ0FBQyxJQUFJLEVBQUUsRUFBRSxDQUFDLElBQUksQ0FBQyxRQUFRLENBQUMsQ0FBQztBQUQzQixRQUFBLElBQUksUUFDdUI7QUFFeEMsa0JBQWU7SUFDYixJQUFJLEVBQUosWUFBSTtDQUNMLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgdHlwZSBEZXZlbG9wZXJSZXNwb25zZSA9IHtcbiAgdXNlck5hbWU6IHN0cmluZztcbn07XG5cbmV4cG9ydCBjb25zdCBmcm9tID0gKHJlc3BvbnNlOiBEZXZlbG9wZXJSZXNwb25zZVtdKSA9PlxuICByZXNwb25zZS5tYXAoKHVzZXIpID0+IHVzZXIudXNlck5hbWUpO1xuXG5leHBvcnQgZGVmYXVsdCB7XG4gIGZyb20sXG59O1xuIl19
