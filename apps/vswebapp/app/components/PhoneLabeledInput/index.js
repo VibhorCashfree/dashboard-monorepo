@@ -1,6 +1,6 @@
 import React from 'react';
-import { InputWithAction } from '@cashfree-intl/coherent';
+import { PhoneLabeledInput } from '@dashboard-monorepo/shared';
 
-const PhoneLabeledInput = props => <InputWithAction label="+91" {...props} />;
+const VSPhoneLabeledInput = props => <PhoneLabeledInput label="+91" {...props} />;
 
-export default PhoneLabeledInput;
+export default VSPhoneLabeledInput;

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {
   Checkbox,
-  FilterPopover,
   Text,
   InputWithAction,
   Dropdown,
@@ -11,6 +10,7 @@ import {
 } from '@cashfree-intl/coherent';
 import _get from 'lodash/get';
 import _find from 'lodash/find';
+import { FilterPopover } from '@dashboard-monorepo/shared';
 
 // Components
 import Icon from 'components/Icon';
@@ -56,7 +56,7 @@ export const CustomFilterPopover = ({
       value={value}
       onApply={filters => onChange(filters, _get(searchBy, 'value'))}
     >
-      {(values, onChange) => (
+      {(values, onFiltersChange) => (
         <>
           <label
             className={classNames('px-4 block pb-1', {
@@ -84,7 +84,7 @@ export const CustomFilterPopover = ({
                 }
                 name="search"
                 value={values.search}
-                onChange={onChange}
+                onChange={onFiltersChange}
                 labelPosition="left"
                 placeholder={`Enter ${searchBy.text}`}
               />
@@ -140,7 +140,7 @@ export const CustomFilterPopover = ({
                             name={labelObjectKey || status}
                             label={labelByStatus[status] || status}
                             checked={!!values[labelObjectKey || status]}
-                            onChange={onChange}
+                            onChange={onFiltersChange}
                           />
                         );
                       })}

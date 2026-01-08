@@ -1,34 +1,35 @@
-export const DEFAULT_LIMIT = 10;
-export const DEFAULT_CURRENT_PAGE = 1;
+import {
+  DEFAULT_LIMIT as SHARED_DEFAULT_LIMIT,
+  DEFAULT_CURRENT_PAGE as SHARED_DEFAULT_CURRENT_PAGE,
+  ENV as SHARED_ENV,
+  LABEL_BY_ENV as SHARED_LABEL_BY_ENV,
+  SIZE_LIMIT as SHARED_SIZE_LIMIT,
+  FILE_SIZE_CHECK as SHARED_FILE_SIZE_CHECK,
+  UPLOAD_CHECK_LIST as SHARED_UPLOAD_CHECK_LIST,
+  defaultTabMenuConfig as sharedDefaultTabMenuConfig,
+  ACCOUNT_TYPE as SHARED_ACCOUNT_TYPE,
+} from '@dashboard-monorepo/shared';
+
+export const DEFAULT_LIMIT = SHARED_DEFAULT_LIMIT;
+export const DEFAULT_CURRENT_PAGE = SHARED_DEFAULT_CURRENT_PAGE;
 
 export enum ENV {
   TEST = 'test',
   PROD = 'prod',
 }
 
-export const LABEL_BY_ENV = {
-  [ENV.TEST]: 'Test',
-  [ENV.PROD]: 'Production',
-};
+export const LABEL_BY_ENV = SHARED_LABEL_BY_ENV;
 
-export const SIZE_LIMIT = 5242880; // 5 MB
+export const SIZE_LIMIT = SHARED_SIZE_LIMIT;
 
-export const FILE_SIZE_CHECK = 'Max file size: 5MB';
+export const FILE_SIZE_CHECK = SHARED_FILE_SIZE_CHECK;
 
-export const UPLOAD_CHECK_LIST = [
-  'Max no. of records: 10000',
-  FILE_SIZE_CHECK,
-  'File type: .csv, .xls, .xlsx',
-];
+export const UPLOAD_CHECK_LIST = SHARED_UPLOAD_CHECK_LIST;
 
 export enum FILE_TYPE {
   CSV = 'CSV',
   XLS = 'XLS',
   PDF = 'PDF',
-}
-
-export enum ACCOUNT_TYPE {
-  GLOBAL_PAYOUTS = 'FI_OPGSP_EXP',
 }
 
 export enum USER_TYPE {
@@ -192,7 +193,8 @@ export const IBAN_FORMAT_BY_COUNTRY: { [key: string]: IbanFormat } = {
   VG: { length: 24, format: 'VGkkBBBBCCCCCCCCCCCCCCCX' },
 };
 
-export const defaultTabMenuConfig = {
-  secondary: true,
-  pointing: true,
-};
+export enum ACCOUNT_TYPE {
+  GLOBAL_PAYOUTS = 'FI_OPGSP_EXP',
+}
+
+export const defaultTabMenuConfig = sharedDefaultTabMenuConfig;

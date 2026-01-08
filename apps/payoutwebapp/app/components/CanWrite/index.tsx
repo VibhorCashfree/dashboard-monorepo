@@ -1,4 +1,5 @@
 import React from 'react';
+import { CanWrite } from '@dashboard-monorepo/shared';
 
 // Providers
 import { useMerchant } from 'providers/MerchantProvider';
@@ -9,20 +10,20 @@ import hasPermission from 'utils/hasPermission';
 // Types
 import type { Props } from './types';
 
-const CanWrite = ({ children, code, remove }: Props) => {
+const CanWriteWrapper = ({ children, code, remove }: Props) => {
   const { merchantDetails, restrictionCodes } = useMerchant();
 
-  if (
-    hasPermission(
-      restrictionCodes,
-      merchantDetails.userType,
-      code instanceof Array ? code : [code],
-    )
-  ) {
-    return <>{children}</>;
-  }
+  const isAllowed = hasPermission(
+    restrictionCodes,
+    merchantDetails.userType,
+    code instanceof Array ? code : [code],
+  );
 
-  return <span className={remove ? 'hide' : 'invisible'}>{children}</span>;
+  return (
+    <CanWrite isAllowed={isAllowed} remove={remove}>
+      {children}
+    </CanWrite>
+  );
 };
 
-export default CanWrite;
+export default CanWriteWrapper;

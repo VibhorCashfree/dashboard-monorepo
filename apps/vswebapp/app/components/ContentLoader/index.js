@@ -1,19 +1,8 @@
-import React from 'react';
+import { ContentLoader } from '@dashboard-monorepo/shared';
 import PropTypes from 'prop-types';
-import { Segment } from '@cashfree-intl/coherent';
 
-// Components
-import Loader from 'components/Loader';
-
-// Styled
-import { StyledDimmable } from './styled';
-
-const ContentLoader = ({ loading, children, ...props }) => (
-  <StyledDimmable as={loading ? Segment : null} dimmed={loading} {...props}>
-    {loading && <Loader />}
-    {children}
-  </StyledDimmable>
-);
+// Re-export styled for backward compatibility
+export { StyledDimmable } from './styled';
 
 ContentLoader.propTypes = {
   loading: PropTypes.bool.isRequired,

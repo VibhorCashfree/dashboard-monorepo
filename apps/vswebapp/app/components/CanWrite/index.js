@@ -1,33 +1,30 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { CanWrite } from '@dashboard-monorepo/shared';
 
 import { usePermissionCode } from '@cashfree-intl/auth';
 
 // Utils
 import { getPermissionsResponse } from 'utils/getPermissions';
 
-const CanWrite = ({ children, code, remove }) => {
-  let checkPermissions = usePermissionCode(code) ?? false;
+const VSCanWrite = ({ children, code, remove }) => {
+  let isAllowed = usePermissionCode(code) ?? false;
 
   if (typeof code !== 'number') {
-    checkPermissions = getPermissionsResponse(code);
-  }
-
-  if (checkPermissions) {
-    return children;
+    isAllowed = getPermissionsResponse(code);
   }
 
   return (
-    <span data-testid="can-write" className={remove ? 'hide' : 'invisible'}>
+    <CanWrite isAllowed={isAllowed} remove={remove}>
       {children}
-    </span>
+    </CanWrite>
   );
 };
 
-CanWrite.propTypes = {
+VSCanWrite.propTypes = {
   children: PropTypes.any,
   code: PropTypes.number.isRequired,
   remove: PropTypes.bool,
 };
 
-export default CanWrite;
+export default VSCanWrite;

@@ -1,17 +1,8 @@
-import React, { useEffect } from 'react';
+import { Drawer } from '@dashboard-monorepo/shared';
 import PropTypes from 'prop-types';
 
-// Styled
-import { StyledOverlay, AlertBody } from './styled';
-
-const Drawer = (props) => {
-  useEffect(() => {
-    document.body.style.overflow = 'hidden';
-    return () => (document.body.style.overflow = 'unset');
-  }, []);
-
-  return <StyledOverlay {...props} />;
-};
+// Re-export styled for backward compatibility
+export { StyledOverlay, AlertBody } from './styled';
 
 Drawer.propTypes = {
   children: PropTypes.oneOfType([
@@ -20,6 +11,6 @@ Drawer.propTypes = {
   ]).isRequired,
 };
 
-Drawer.AlertBody = AlertBody;
+Drawer.AlertBody = require('./styled').AlertBody;
 
 export default Drawer;

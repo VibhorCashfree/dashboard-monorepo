@@ -1,15 +1,8 @@
-import React from 'react';
+import { MetaTags } from '@dashboard-monorepo/shared';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet';
-
-const MetaTags = ({ title }) => (
-  <Helmet>
-    <title>{title}</title>
-  </Helmet>
-);
 
 MetaTags.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
 };
 
 export default MetaTags;

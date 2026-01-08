@@ -1,14 +1,4 @@
-// Constants
-import { map } from './';
+import type { IconProps } from '@dashboard-monorepo/shared';
 
-export interface Props
-  extends Omit<
-    React.HTMLProps<HTMLDivElement>,
-    'children' | 'ref' | 'as' | 'size'
-  > {
-  name: keyof typeof map;
-  fill?: string;
-  verticalAlign?: 'top' | 'middle' | 'bottom';
-}
-
-export type StyledProps = Props & WithTheme;
+export type Props = IconProps;
+export type StyledProps = IconProps;

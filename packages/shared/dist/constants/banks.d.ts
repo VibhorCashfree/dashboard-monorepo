@@ -1,3 +1,4 @@
+export declare const BANK_MODES: string[];
 export declare const BANK_CODE: {
     IDFB: string;
     RBLB: string;
@@ -8,5 +9,10 @@ export declare const BANK_CODE: {
     UTIB: string;
     SBIN: string;
     INDB: string;
+    CITI: string;
+    SCBL: string;
+    ENBD: string;
+    CASH: string;
+    PYTM: string;
 };
 //# sourceMappingURL=banks.d.ts.map

@@ -1,9 +1,5 @@
 import React from 'react';
-import * as Sentry from '@sentry/react';
-import { ErrorBoundary as ErrorBoundaryComponent } from '@cashfree-intl/coherent';
-
-// Utils
-import { LocalStorage } from '@cashfree-intl/coherent';
+import { ErrorBoundary } from '@dashboard-monorepo/shared';
 
 // Constants
 import { INTERNAL_SERVER_ERROR } from 'constants/errors';
@@ -17,7 +13,7 @@ import Emitter from 'utils/emitter';
 // Types
 import type { Props } from './types';
 
-const ErrorBoundary = ({
+const PayoutErrorBoundary = ({
   children,
   fallback = (
     <Alert className="mb-2" type="danger" bordered rounded>
@@ -25,34 +21,21 @@ const ErrorBoundary = ({
     </Alert>
   ),
 }: Props) => {
-  const handleError = ({
-    errMsg,
-    ...tags
-  }: {
-    errMsg: string;
-    [key: string]: string | undefined;
-  }) => {
+  const handleGlobalError = () => {
     Emitter.emit('GLOBAL_ERROR');
-
-    Sentry.captureException(errMsg, {
-      tags,
-    });
   };
 
   return (
-    <ErrorBoundaryComponent
-      onError={handleError}
+    <ErrorBoundary
+      product="payoutwebapp"
+      team="payoutwebapp"
+      onGlobalError={handleGlobalError}
       fallback={fallback}
-      customErrorConfig={{
-        product: 'payoutwebapp',
-        team: 'payoutwebapp',
-        merchantId: LocalStorage.getItemFromLocalStorage('merchantId'),
-        accountId: LocalStorage.getItemFromLocalStorage('accountId'),
-      }}
     >
       {children}
-    </ErrorBoundaryComponent>
+    </ErrorBoundary>
   );
 };
 
-export default ErrorBoundary;
+export default PayoutErrorBoundary;
+export { default as withErrorBoundary } from './hocs';

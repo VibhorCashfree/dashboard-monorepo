@@ -1,22 +1,27 @@
-export const DEFAULT_LIMIT = 10;
-export const DEFAULT_CURRENT_PAGE = 1;
+import {
+  DEFAULT_LIMIT as SHARED_DEFAULT_LIMIT,
+  DEFAULT_CURRENT_PAGE as SHARED_DEFAULT_CURRENT_PAGE,
+  ENV,
+  UPLOAD_CHECK_LIST as SHARED_UPLOAD_CHECK_LIST,
+  ACCOUNT_TYPE,
+  defaultTabMenuConfig,
+} from '@dashboard-monorepo/shared';
 
-export const TEST = 'test';
-export const PROD = 'prod';
+export const DEFAULT_LIMIT = SHARED_DEFAULT_LIMIT;
+export const DEFAULT_CURRENT_PAGE = SHARED_DEFAULT_CURRENT_PAGE;
+
+export const TEST = ENV.TEST;
+export const PROD = ENV.PROD;
 
 export const ENV_CONFIG = {
   [TEST]: { key: TEST, displayText: 'Test' },
   [PROD]: { key: PROD, displayText: 'Prod' },
 };
 
-export const UPLOAD_CHECK_LIST = [
-  'Max no. of records: 10000',
-  'Max file size: 5MB',
-  'File type: .csv, .xlsx',
-];
+export const UPLOAD_CHECK_LIST = SHARED_UPLOAD_CHECK_LIST;
 
 export const ACCOUNT_TYPES = {
-  GLOBAL_PAYOUTS: 'FI_OPGSP_EXP',
+  GLOBAL_PAYOUTS: ACCOUNT_TYPE.GLOBAL_PAYOUTS,
 };
 
 export const GENDER = {
@@ -24,4 +29,4 @@ export const GENDER = {
   F: 'Female',
 };
 
-export const menuConfig = { secondary: true, pointing: true };
+export const menuConfig = defaultTabMenuConfig;

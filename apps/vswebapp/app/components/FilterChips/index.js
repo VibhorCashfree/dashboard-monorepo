@@ -1,21 +1,8 @@
-import React from 'react';
+import { FilterChips } from '@dashboard-monorepo/shared';
 import PropTypes from 'prop-types';
-import { Cross, Label } from '@cashfree-intl/coherent';
 
-// Styled
-import { StyledChipsContainer } from './styled';
-
-const FilterChips = ({ maxWidth, chips, onRemove }) =>
-  chips.length > 0 && (
-    <StyledChipsContainer $maxWidth={maxWidth}>
-      {chips.map(({ key, text }) => (
-        <Label key={key} size="tiny">
-          {text}
-          <Cross size="sm" className="pl-1" onClick={() => onRemove(key)} />
-        </Label>
-      ))}
-    </StyledChipsContainer>
-  );
+// Re-export styled for backward compatibility
+export { StyledChipsContainer } from './styled';
 
 FilterChips.propTypes = {
   chips: PropTypes.array.isRequired,

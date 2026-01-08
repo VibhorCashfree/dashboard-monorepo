@@ -1,23 +1,11 @@
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
+import { NotificationBar } from '@dashboard-monorepo/shared';
 
 // Components
 import ErrorBoundary from 'components/ErrorBoundary';
-import FallbackComponent from 'components/FallbackComponent';
 
-const NotificationBarMF = lazy(() =>
-  import(/* webpackPrefetch: true */ 'CommonModule/NotificationBar').catch(
-    () => ({
-      default: FallbackComponent,
-    }),
-  ),
+const NotificationBarWrapper = () => (
+  <NotificationBar errorBoundary={ErrorBoundary} />
 );
 
-const NotificationBar = () => (
-  <ErrorBoundary fallback={<></>}>
-    <Suspense fallback={<></>}>
-      <NotificationBarMF />
-    </Suspense>
-  </ErrorBoundary>
-);
-
-export default NotificationBar;
+export default NotificationBarWrapper;

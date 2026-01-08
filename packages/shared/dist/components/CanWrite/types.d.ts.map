@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/components/CanWrite/types.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,aAAa;IAC5B,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAC;IAC1B,SAAS,EAAE,OAAO,CAAC;IACnB,MAAM,CAAC,EAAE,OAAO,CAAC;CAClB"}

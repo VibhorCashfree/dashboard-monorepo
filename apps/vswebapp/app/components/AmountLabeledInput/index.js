@@ -1,6 +1,6 @@
 import React from 'react';
-import { InputWithAction } from '@cashfree-intl/coherent';
+import { AmountLabeledInput } from '@dashboard-monorepo/shared';
 
-const AmountLabeledInput = props => <InputWithAction label=" ₹ " {...props} />;
+const VSAmountLabeledInput = props => <AmountLabeledInput label=" ₹ " {...props} />;
 
-export default AmountLabeledInput;
+export default VSAmountLabeledInput;

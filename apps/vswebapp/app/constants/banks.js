@@ -1,17 +1,7 @@
-export const BANK_MODES = ['BANK', 'IMPS', 'NEFT'];
+import { BANK_MODES as SHARED_BANK_MODES, BANK_CODE as SHARED_BANK_CODE } from '@dashboard-monorepo/shared';
+
+export const BANK_MODES = SHARED_BANK_MODES;
 
 export const BANK_CODES = {
-  UTIB: 'UTIB',
-  CITI: 'CITI',
-  HDFC: 'HDFC',
-  ICIC: 'ICIC',
-  IDFB: 'IDFB',
-  RBLB: 'RATN',
-  KKBK: 'KKBK',
-  SBIN: 'SBIN',
-  SCBL: 'SCBL',
-  YESB: 'YESB',
-  INDB: 'INDB',
-  CASH: 'CASH',
-  PYTM: 'PYTM',
+  ...SHARED_BANK_CODE,
 };

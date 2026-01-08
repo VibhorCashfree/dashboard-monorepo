@@ -1,0 +1,145 @@
+import Aadhaar from './Aadhaar';
+import AadhaarOCR from './AadhaarOCR';
+import Add from './Add';
+import APIKey from './APIKey';
+import ApiTwoTone from './ApiTwoTone';
+import AutoCollect from './AutoCollect';
+import Bass from './Bass';
+import Bav from './Bav';
+import Burger from './Burger';
+import BurgerClose from './BurgerClose';
+import Cashfree from './Cashfree';
+import CashfreeLogo from './CashfreeLogo';
+import Certified from './Certified';
+import ChevronDown from './ChevronDown';
+import ChevronLeft from './ChevronLeft';
+import ChevronRight from './ChevronRight';
+import ChevronUp from './ChevronUp';
+import CircleTick from './CircleTick';
+import CircularChevronLeft from './CircularChevronLeft';
+import CircularChevronRight from './CircularChevronRight';
+import Condition from './Condition';
+import Copy from './Copy';
+import CreateNew from './CreateNew';
+import Cross from './Cross';
+import CrossBorder from './CrossBorder';
+import Csv from './Csv';
+import Delete from './Delete';
+import Developers from './Developers';
+import Download from './Download';
+import Drag from './Drag';
+import Ellipsis from './Ellipsis';
+import Info from './Info';
+import InOut from './InOut';
+import LendingUser from './LendingUser';
+import Logout from './Logout';
+import Minus from './Minus';
+import Mobile from './Mobile';
+import MobileKeypad from './MobileKeypad';
+import NavigateRight from './NavigateRight';
+import OpenLink from './OpenLink';
+import Pan from './Pan';
+import PanOCR from './PanOCR';
+import Payout from './Payout';
+import Pencil from './Pencil';
+import Pg from './Pg';
+import Plus from './Plus';
+import PlusEdge from './PlusEdge';
+import PrimaryPlus from './PrimaryPlus';
+import Profile from './Profile';
+import Redo from './Redo';
+import Refresh from './Refresh';
+import Reset from './Reset';
+import SecureIdentityVerification from './SecureIdentityVerification';
+import Send from './Send';
+import SendKycForm from './SendKycForm';
+import Settings from './Settings';
+import Settlements from './Settlements';
+import Share from './Share';
+import StatusPage from './StatusPage';
+import Stop from './Stop';
+import Subscriptions from './Subscriptions';
+import Switch from './Switch';
+import Test from './Test';
+import Thunder from './Thunder';
+import Tick from './Tick';
+import TickOutline from './TickOutline';
+import TopRightArrow from './TopRightArrow';
+import Undo from './Undo';
+import Upi from './Upi';
+import VerificationSuite from './VerificationSuite';
+import Xls from './Xls';
+
+export {
+  Aadhaar,
+  AadhaarOCR,
+  Add,
+  APIKey,
+  ApiTwoTone,
+  AutoCollect,
+  Bass,
+  Bav,
+  Burger,
+  BurgerClose,
+  Cashfree,
+  CashfreeLogo,
+  Certified,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
+  CircleTick,
+  CircularChevronLeft,
+  CircularChevronRight,
+  Condition,
+  Copy,
+  CreateNew,
+  Cross,
+  CrossBorder,
+  Csv,
+  Delete,
+  Developers,
+  Download,
+  Drag,
+  Ellipsis,
+  Info,
+  InOut,
+  LendingUser,
+  Logout,
+  Minus,
+  Mobile,
+  MobileKeypad,
+  NavigateRight,
+  OpenLink,
+  Pan,
+  PanOCR,
+  Payout,
+  Pencil,
+  Pg,
+  Plus,
+  PlusEdge,
+  PrimaryPlus,
+  Profile,
+  Redo,
+  Refresh,
+  Reset,
+  SecureIdentityVerification,
+  Send,
+  SendKycForm,
+  Settings,
+  Settlements,
+  Share,
+  StatusPage,
+  Stop,
+  Subscriptions,
+  Switch,
+  Test,
+  Thunder,
+  Tick,
+  TickOutline,
+  TopRightArrow,
+  Undo,
+  Upi,
+  VerificationSuite,
+  Xls,
+};

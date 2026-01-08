@@ -8,6 +8,7 @@
         "declarationMap": true,
         "skipLibCheck": true,
         "resolveJsonModule": true,
+        "jsx": "react",
         "types": [
             "node",
             "lodash"

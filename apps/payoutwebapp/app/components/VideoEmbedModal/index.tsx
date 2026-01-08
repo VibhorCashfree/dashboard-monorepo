@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Modal, ModalContent } from '@cashfree-intl/coherent';
+import { VideoEmbedModal } from '@dashboard-monorepo/shared';
 
 // Constants
 import EVENTS from 'constants/events';
@@ -11,13 +11,10 @@ import Analytics from 'utils/analytics';
 // Hocs
 import withErrorBoundary from 'components/ErrorBoundary/hocs';
 
-// Styles
-import { StyledEmbed } from './styled';
-
 // Types
 import type { Props } from './types';
 
-const VideoEmbedModal = ({ embedKey, onClose }: Props) => {
+const PayoutVideoEmbedModal = ({ embedKey, onClose }: Props) => {
   const { name, url } = VIDEO_EMBEDS[embedKey];
 
   useEffect(() => {
@@ -27,21 +24,12 @@ const VideoEmbedModal = ({ embedKey, onClose }: Props) => {
   }, []);
 
   return (
-    <Modal onClose={onClose} open>
-      <ModalContent className="p-0">
-        <StyledEmbed
-          role="video-embed"
-          active
-          placeholder={name}
-          url={url}
-          autoplay={false}
-          iframe={{
-            allowFullScreen: true,
-          }}
-        />
-      </ModalContent>
-    </Modal>
+    <VideoEmbedModal
+      name={name}
+      url={url}
+      onClose={onClose}
+    />
   );
 };
 
-export default withErrorBoundary(VideoEmbedModal);
+export default withErrorBoundary(PayoutVideoEmbedModal);

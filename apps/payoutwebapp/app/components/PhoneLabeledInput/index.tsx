@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputWithAction } from '@cashfree-intl/coherent';
+import { PhoneLabeledInput } from '@dashboard-monorepo/shared';
 
 // Constants
 import { PHONE_LABEL } from 'constants/common';
@@ -7,12 +7,12 @@ import { PHONE_LABEL } from 'constants/common';
 // Utils
 import Region from 'utils/region';
 
-const PhoneLabeledInput = (props: AnyObject) => {
+const PayoutPhoneLabeledInput = (props: any) => {
   const region = Region.get();
 
   const label = PHONE_LABEL[region];
 
-  return <InputWithAction label={label} {...props} />;
+  return <PhoneLabeledInput label={label} {...props} />;
 };
 
-export default PhoneLabeledInput;
+export default PayoutPhoneLabeledInput;

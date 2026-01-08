@@ -1,0 +1,1 @@
+{"version":3,"file":"date.d.ts","sourceRoot":"","sources":["../../src/constants/date.ts"],"names":[],"mappings":"AAIA,MAAM,MAAM,cAAc,GAAG;IAC3B,WAAW,EAAE,MAAM,CAAC;IACpB,KAAK,EAAE,CAAC,IAAI,EAAE,IAAI,CAAC,CAAC;CACrB,CAAC;AAEF,eAAO,MAAM,WAAW,EAAE,MAAM,CAAC,MAAM,EAAE,cAAc,CA4CtD,CAAC;AAEF,eAAO,MAAM,OAAO;;;;;;;;;CASnB,CAAC"}

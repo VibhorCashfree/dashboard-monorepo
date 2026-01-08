@@ -1,23 +1,11 @@
-import React, { lazy, Suspense } from 'react';
+import React from 'react';
+import { NotificationPopover } from '@dashboard-monorepo/shared';
 
 // Components
 import ErrorBoundary from 'components/ErrorBoundary';
-import FallbackComponent from 'components/FallbackComponent';
 
-const NotificationPopoverMF = lazy(() =>
-  import(/* webpackPrefetch: true */ 'CommonModule/NotificationPopover').catch(
-    () => ({
-      default: FallbackComponent,
-    }),
-  ),
+const NotificationPopoverWrapper = () => (
+  <NotificationPopover errorBoundary={ErrorBoundary} isShellV2 />
 );
 
-const NotificationPopover = () => (
-  <ErrorBoundary fallback={<></>}>
-    <Suspense fallback={<></>}>
-      <NotificationPopoverMF isShellV2 />
-    </Suspense>
-  </ErrorBoundary>
-);
-
-export default NotificationPopover;
+export default NotificationPopoverWrapper;

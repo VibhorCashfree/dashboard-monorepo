@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import {
   Checkbox,
   Dropdown,
-  FilterPopover,
   Popup,
   Text,
   InputWithAction,
@@ -11,6 +10,7 @@ import {
 } from '@cashfree-intl/coherent';
 import _get from 'lodash/get';
 import _find from 'lodash/find';
+import { FilterPopover } from '@dashboard-monorepo/shared';
 
 // Components
 import Icon from 'components/Icon';
@@ -68,7 +68,7 @@ const CustomFilterPopover: React.FC<Props> = ({
     >
       {(
         values: AnyObject,
-        onChange: (e: React.MouseEvent, { value }: { value: string }) => void,
+        onFiltersChange: (e: React.MouseEvent, { value }: { value: string }) => void,
       ) => (
         <>
           <label
@@ -99,7 +99,7 @@ const CustomFilterPopover: React.FC<Props> = ({
               }
               name="search"
               value={values.search}
-              onChange={onChange}
+              onChange={onFiltersChange}
               labelPosition="left"
               placeholder={`Enter ${searchBy?.text}`}
             />
@@ -137,6 +137,8 @@ const CustomFilterPopover: React.FC<Props> = ({
                                   name="info"
                                   className="pointer"
                                   verticalAlign="top"
+                                  width="14"
+                                  height="14"
                                 />
                               </span>
                             }
@@ -223,7 +225,7 @@ const CustomFilterPopover: React.FC<Props> = ({
                                 : !!values[labelObjectKey || status]
                             }
                             disabled={specialCondition}
-                            onChange={onChange}
+                            onChange={onFiltersChange}
                           />
                         );
                       })}

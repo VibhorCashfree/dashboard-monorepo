@@ -1,23 +1,14 @@
-import React, { useEffect } from 'react';
-
-// Styled
+import { Drawer as SharedDrawer } from '@dashboard-monorepo/shared';
 import { StyledOverlay, AlertBody } from './styled';
 
-// Types
-import type { Props } from './types';
+interface DrawerComponent extends React.FC<any> {
+  AlertBody: typeof AlertBody;
+}
 
-const Drawer = (props: Props) => {
-  useEffect(() => {
-    document.body.style.overflow = 'hidden';
-
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, []);
-
-  return <StyledOverlay {...props} />;
-};
-
+const Drawer = SharedDrawer as DrawerComponent;
 Drawer.AlertBody = AlertBody;
+
+// Re-export styled for backward compatibility
+export { StyledOverlay, AlertBody };
 
 export default Drawer;

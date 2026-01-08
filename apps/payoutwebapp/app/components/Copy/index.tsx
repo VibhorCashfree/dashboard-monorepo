@@ -1,39 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import _noop from 'lodash/noop';
+import { Copy } from '@dashboard-monorepo/shared';
 
-// Components
-import Icon from 'components/Icon';
-
-// Utils
-import { copyToClipboard } from 'utils/common';
-
-// Types
-import type { Props } from './types';
-
-const Copy = ({ value, onClick = _noop }: Props) => {
-  const [copied, setCopied] = useState(false);
-
-  if (!value) {
-    return null;
-  }
-
-  const handleCopy = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    e.stopPropagation();
-
-    setCopied(true);
-
-    copyToClipboard(value);
-    onClick(e);
-  };
-
-  return (
-    <Icon
-      name={copied ? 'tick' : 'copy'}
-      data-event-name="Copy"
-      className="pointer ml-1"
-      onClick={handleCopy}
-    />
-  );
+type Props = {
+  value: string;
+  onClick?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 };
 
-export default Copy;
+const PayoutCopy = ({ value, onClick = _noop }: Props) => (
+  <Copy value={value} onClick={onClick} />
+);
+
+export default PayoutCopy;
